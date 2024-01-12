@@ -6,20 +6,30 @@ const Layout = ({ location, title, children }) => {
   const isRootPath = location.pathname === rootPath
   let header
 
-  if (isRootPath) {
-    header = (
-      <h1 className="main-heading">
-        <Link to="/">{title}</Link>
-      </h1>
-
-    )
-  } else {
-    header = (
-      <Link className="header-link-home" to="/">
-        {title}
-      </Link>
-    )
-  }
+  header = (
+    <div className="header-container">
+        <h1 className="main-heading">
+          <Link to="/">Collisteru</Link>
+        </h1>
+        <div className="minor-header-links-container">
+          <Link to="/index" className="minor-header-link">
+            BLOG
+          </Link>
+          <Link to="/" className="minor-header-link">
+            ABOUT
+          </Link>
+          <Link to="/" className="minor-header-link">
+            CONTACT
+          </Link>
+          <Link to="/" className="minor-header-link">
+            SOFTWARE
+          </Link>
+          <Link to="/" className="minor-header-link">
+            NOW
+          </Link>
+        </div>
+      </div>
+  )
 
   return (
     <div className="global-wrapper" data-is-root-path={isRootPath}>

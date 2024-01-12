@@ -99,7 +99,8 @@ footer {
 }
 
 header {
-  background-color: var(--beige);
+  background-color: var(--white);
+  height: 150px;
 }
 
 footer {
@@ -107,13 +108,15 @@ footer {
 }
 
 main {
-  background-color: var(--beige);
+  background-color: var(--white);
 }
 
 hr {
   height: 1px;
   border: 0;
 }
+
+
 
 /* Heading */
 
@@ -251,8 +254,11 @@ table thead tr th {
 
 /* Link */
 
+
+/* Link Styling */
 a {
   color: var(--color-primary);
+  text-decoration: none;
 }
 
 a:hover,
@@ -272,8 +278,43 @@ a:focus {
 }
 
 .global-header {
+  height: 130px;
   width: 100%;
   margin-bottom: var(--spacing-12);
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
+}
+
+.minor-header-links-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+  margin-right: 10%;
+  margin-left: 215px;
+}
+
+.minor-header-link {
+  margin-left: 10%;
+  font-family: serif;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: gray;
+}
+
+.header-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 0;
+}
+
+.header-link-home {
+  display: flex;
+  align-items: center;
+  padding: 10%;
 }
 
 #content {
@@ -310,22 +351,15 @@ a:focus {
   margin-bottom: var(--spacing-4);
 }
 
-.header-link-home {
-  font-weight: var(--fontWeight-bold);
-  font-family: var(--font-heading);
-  text-decoration: none;
-  font-size: var(--fontSize-2);
-}
-
 .bio {
   display: flex; 
   margin-bottom: var(--spacing-16);
-  background-color: var(--beige);
+  background-color: var(--white);
 }
 
 .bio p {
   margin-bottom: var(--spacing-0);
-}
+}ad
 
 .bio-avatar {
   margin-right: var(--spacing-4);
