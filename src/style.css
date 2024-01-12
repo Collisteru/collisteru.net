@@ -31,8 +31,8 @@
     BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
     sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
     "Noto Color Emoji";
-  --fontFamily-serif: "Merriweather", "Georgia", Cambria, "Times New Roman",
-    Times, serif;
+  --fontFamily-serif: "Charis SIL", "sans-serif";
+
   --font-body: var(--fontFamily-serif);
   --font-heading: var(--fontFamily-seif);
   --fontWeight-normal: 400;
@@ -73,6 +73,9 @@
   background-color: var(--dark-blue);
 }
 
+
+
+
 /* HTML elements */
 
 *,
@@ -100,7 +103,6 @@ footer {
 
 header {
   background-color: var(--white);
-  height: 150px;
 }
 
 footer {
@@ -198,6 +200,7 @@ ol {
   margin-right: var(--spacing-0);
   padding: var(--spacing-0);
   margin-bottom: var(--spacing-8);
+  margin-top: 0;
   list-style-position: outside;
   list-style-image: none;
 }
@@ -297,7 +300,6 @@ a:focus {
 
 .minor-header-link {
   margin-left: 10%;
-  font-family: serif;
   font-weight: bold;
   font-size: 1.5em;
   color: gray;
@@ -320,10 +322,14 @@ a:focus {
 #content {
   width: 90%;
   margin: 0 auto; /* Center Div */
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 1px;
 }
 
 .global-footer {
   width: 100%;
+  color: var(--white);
 }
 
 .main-heading {

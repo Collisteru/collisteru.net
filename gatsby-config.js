@@ -30,10 +30,29 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Charis SIL`,
+            subsets: [`regular`, 'bold', 'italic', 'bold italic'],  // Adjust subsets as needed
+          },
+          // Add more fonts as needed
+        ],
+        display: 'swap',
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
+      },
+    },
+      {
+      resolve: `gatsby-plugin-postcss`,
+      options: {
+        postCssPlugins: [require('autoprefixer')],
       },
     },
     {
@@ -121,5 +140,7 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
+    
   ],
 }
+
