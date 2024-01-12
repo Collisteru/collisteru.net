@@ -34,7 +34,7 @@
   --fontFamily-serif: "Merriweather", "Georgia", Cambria, "Times New Roman",
     Times, serif;
   --font-body: var(--fontFamily-serif);
-  --font-heading: var(--fontFamily-sans);
+  --font-heading: var(--fontFamily-seif);
   --fontWeight-normal: 400;
   --fontWeight-bold: 700;
   --fontWeight-black: 900;
@@ -69,6 +69,8 @@
   --brown:#541D01;
   --white: #EDECE1;
   --black: #0F0F0F;
+  
+  background-color: var(--dark-blue);
 }
 
 /* HTML elements */
@@ -96,8 +98,19 @@ footer {
   padding: var(--spacing-6) var(--spacing-0);
 }
 
+header {
+  background-color: var(--beige);
+}
+
+footer {
+  background-color: var(--light-blue);
+}
+
+main {
+  background-color: var(--beige);
+}
+
 hr {
-  background: var(--color-accent);
   height: 1px;
   border: 0;
 }
@@ -251,8 +264,7 @@ a:focus {
 
 .global-wrapper {
   margin: var(--spacing-0) auto;
-  max-width: var(--maxWidth-wrapper);
-  padding: var(--spacing-10) var(--spacing-5);
+  width: 100%;
 }
 
 .global-wrapper[data-is-root-path="true"] .bio {
@@ -260,7 +272,17 @@ a:focus {
 }
 
 .global-header {
+  width: 100%;
   margin-bottom: var(--spacing-12);
+}
+
+#content {
+  width: 90%;
+  margin: 0 auto; /* Center Div */
+}
+
+.global-footer {
+  width: 100%;
 }
 
 .main-heading {
@@ -296,8 +318,9 @@ a:focus {
 }
 
 .bio {
-  display: flex;
+  display: flex; 
   margin-bottom: var(--spacing-16);
+  background-color: var(--beige);
 }
 
 .bio p {
