@@ -12,20 +12,20 @@ const Layout = ({ location, title, children }) => {
           <Link to="/">Collisteru</Link>
         </h1>
         <div className="minor-header-links-container">
-          <Link to="/index" className="minor-header-link">
-            BLOG
-          </Link>
-          <Link to="/" className="minor-header-link">
-            ABOUT
-          </Link>
-          <Link to="/" className="minor-header-link">
-            CONTACT
+        <Link to="/" className="minor-header-link">
+            NOW
           </Link>
           <Link to="/" className="minor-header-link">
             SOFTWARE
           </Link>
           <Link to="/" className="minor-header-link">
-            NOW
+            CONTACT
+          </Link>
+          <Link to="/" className="minor-header-link">
+            ABOUT
+          </Link>
+          <Link to="/index" className="minor-header-link">
+            BLOG
           </Link>
         </div>
       </div>
@@ -35,6 +35,7 @@ const Layout = ({ location, title, children }) => {
     <div className="global-wrapper" data-is-root-path={isRootPath}>
       <header className="global-header">{header}</header>
       <main id="content">{children}</main>
+      <div class="filler-20px"></div>
       <footer className = "global-footer">
         © {new Date().getFullYear()}, Built with
         {` `}
