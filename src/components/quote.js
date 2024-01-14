@@ -1,0 +1,1 @@
+/* Put your random quote and its generator here. */
