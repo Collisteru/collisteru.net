@@ -237,7 +237,7 @@ blockquote {
   border-left: var(--spacing-1) solid var(--black);
   font-size: var(--fontSize-2);
   font-style: italic;
-  margin-bottom: var(--spacing-8);
+  margin-bottom: var(--spacing-0);
 }
 
 blockquote > :last-child {
@@ -251,9 +251,11 @@ blockquote > ol {
 
 quotesource {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  padding-top: 0;
+  margin-top: 0;
+  padding-left: 5%;
   font-weight: bold;
+  margin-bottom: var(--spacing-6);
 }
 
 table {
@@ -340,7 +342,7 @@ a:focus {
 }
 
 #content {
-  width: 90%;
+  width: 50%;
   margin: 0 auto; /* Center Div */
   padding-left: 10px;
   padding-right: 10px;
