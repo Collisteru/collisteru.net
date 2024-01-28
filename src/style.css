@@ -231,10 +231,10 @@ li > ul {
 
 blockquote {
   color: var(--color-text-light);
-  margin-left: calc(-1 * var(--spacing-6));
+  margin-left: calc(var(--spacing-6));
   margin-right: var(--spacing-8);
   padding: var(--spacing-0) var(--spacing-0) var(--spacing-0) var(--spacing-6);
-  border-left: var(--spacing-1) solid var(--color-primary);
+  border-left: var(--spacing-1) solid var(--black);
   font-size: var(--fontSize-2);
   font-style: italic;
   margin-bottom: var(--spacing-8);
@@ -247,6 +247,13 @@ blockquote > :last-child {
 blockquote > ul,
 blockquote > ol {
   list-style-position: inside;
+}
+
+quotesource {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
 }
 
 table {
@@ -279,6 +286,10 @@ a:focus {
 .global-wrapper {
   margin: var(--spacing-0) auto;
   width: 100%;
+  padding: 0;
+  min-height: 100vh; /* Ensure the body takes at least the full height of the viewport */
+  display: flex;
+  flex-direction: column;
 }
 
 .global-wrapper[data-is-root-path="true"] .bio {
@@ -324,8 +335,8 @@ a:focus {
   padding: 10%;
 }
 
-.filler-20px {
-  height: 20px;
+.filler-150px {
+  height: 150px;
 }
 
 #content {
@@ -338,13 +349,13 @@ a:focus {
 
 .global-footer {
   background-color: var(--light-blue);
-  width: 100%;
   color: var(--white);
-  align-items: center;
-  position: absolute;
-  width: 100%;
   height: 100px;
-  margin-top: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center; /* Center content horizontally */
 }
 
 .main-heading {

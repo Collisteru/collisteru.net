@@ -23,17 +23,8 @@ coverage
 # Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
 
-<<<<<<< HEAD
-# Gatsby
-public/
-
-# IPython
-profile_default/
-ipython_config.py
-=======
 # Bower dependency directory (https://bower.io/)
 bower_components
->>>>>>> experimental
 
 # node-waf configuration
 .lock-wscript
