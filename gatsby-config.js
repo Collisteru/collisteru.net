@@ -12,7 +12,7 @@ module.exports = {
     title: `collisteru.net`,
     author: {
       name: `collisteru`,
-      summary: `Writer and software engineer. Curious pursuer of curious things.`,
+      summary: `Writer and software engineer.`,
     },
     description: `A`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
