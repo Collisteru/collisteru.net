@@ -1,4 +1,5 @@
 import * as React from "react"
+import Bio from "../components/bio"
 
 import { Link, graphql, useStaticQuery } from "gatsby"
 
@@ -27,7 +28,7 @@ const About = ({ location, title, children }) => {
     <div className="global-wrapper" data-is-root-path={isRootPath}>
       <header className="global-header">{header}</header>
       <main id="content">
-        <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
+        <Bio />
       </main>
       <div class="filler-150px"></div>
       <footer className="global-footer">

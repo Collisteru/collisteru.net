@@ -32,11 +32,12 @@ const Bio = () => {
 
   return (
     <div className="bio">
+      <p>Hello?</p>
       <StaticImage
         className="bio-avatar"
         layout="fixed"
         formats={["auto", "webp", "avif"]}
-        src="../images/profile-pic.png"
+        src="../images/icon.png"
         width={50}
         height={50}
         quality={95}
