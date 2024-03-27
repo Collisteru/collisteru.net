@@ -42,6 +42,10 @@ function romanize(num) {
   return Array(+digits.join("") + 1).join("M") + roman
 }
 
+// No need to pass children explicitly into Layout, just place the content inside the Layout component when used, like this:
+// <Layout>
+//   <h1>My Page</h1>
+// </Layout>
 const Layout = ({ children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
   let header

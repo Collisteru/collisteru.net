@@ -12,8 +12,6 @@ import Layout from "../components/layout"
 const Bio = () => {
   // Set these values by editing "siteMetadata" in gatsby-config.js
   // const author = inputData.site.siteMetadata?.author
-  // const social = inputData.site.siteMetadata?.social
-
   return (
     <Layout>
       <div className="bio">
