@@ -25,10 +25,20 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
+        name: `content`,
+        path: `${__dirname}/content/other`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
         path: `${__dirname}/content/blog`,
         name: `blog`,
       },
     },
+
+    `gatsby-transformer-remark`,
+    "gatsby-plugin-mdx",
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -36,10 +46,10 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-      {
+    {
       resolve: `gatsby-plugin-postcss`,
       options: {
-        postCssPlugins: [require('autoprefixer')],
+        postCssPlugins: [require("autoprefixer")],
       },
     },
     {
@@ -127,7 +137,5 @@ module.exports = {
         icon: `src/images/icon.png`, // This path is relative to the root of the site.
       },
     },
-    
   ],
 }
-

@@ -4,8 +4,8 @@ import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-const NormalPageTemplate= ({
-  data: {site, markdownRemark: post },
+const NormalPageTemplate = ({
+  data: { site, markdownRemark: post },
   location,
 }) => {
   const siteTitle = site.siteMetadata?.title || `Title`
@@ -29,7 +29,6 @@ const NormalPageTemplate= ({
     </Layout>
   )
 }
-
 
 export default NormalPageTemplate
 
