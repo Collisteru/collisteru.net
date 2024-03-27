@@ -1,6 +1,47 @@
 import * as React from "react"
 import { Link } from "gatsby"
 
+function romanize(num) {
+  if (isNaN(num)) return NaN
+  var digits = String(+num).split(""),
+    key = [
+      "",
+      "C",
+      "CC",
+      "CCC",
+      "CD",
+      "D",
+      "DC",
+      "DCC",
+      "DCCC",
+      "CM",
+      "",
+      "X",
+      "XX",
+      "XXX",
+      "XL",
+      "L",
+      "LX",
+      "LXX",
+      "LXXX",
+      "XC",
+      "",
+      "I",
+      "II",
+      "III",
+      "IV",
+      "V",
+      "VI",
+      "VII",
+      "VIII",
+      "IX",
+    ],
+    roman = "",
+    i = 3
+  while (i--) roman = (key[+digits.pop() + i * 10] || "") + roman
+  return Array(+digits.join("") + 1).join("M") + roman
+}
+
 const Layout = ({ children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
   let header
@@ -36,9 +77,7 @@ const Layout = ({ children }) => {
       <main id="content">{children}</main>
       <div class="filler-150px"></div>
       <footer className="global-footer">
-        © {new Date().getFullYear()}, Built with
-        {` `}
-        <a href="https://www.gatsbyjs.com">Gatsby</a>
+        © {romanize(new Date().getFullYear())}
       </footer>
     </div>
   )
