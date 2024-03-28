@@ -1,14 +1,28 @@
 import * as React from "react"
+import { graphql } from "gatsby"
 import Layout from "../components/layout"
 
-const Software = () => {
-  // Set these values by editing "siteMetadata" in gatsby-config.js
-  // const author = inputData.site.siteMetadata?.author
-  // const social = inputData.site.siteMetadata?.social
+export const query = graphql`
+  query {
+    markdownRemark(fileAbsolutePath: { regex: "/content/other/software/" }) {
+      html
+    }
+  }
+`
+
+function get_content(data) {
+  const { markdownRemark } = data
+  const { html } = markdownRemark
+  const html_to_render = { __html: html }
+  return html_to_render
+}
+
+const Software = ({ data }) => {
+  const html_to_render = get_content(data)
 
   return (
     <Layout>
-      <div>This is what software I've written!</div>
+      <div dangerouslySetInnerHTML={html_to_render} />
     </Layout>
   )
 }

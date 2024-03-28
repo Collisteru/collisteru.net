@@ -1,11 +1,28 @@
 import * as React from "react"
-import { StaticImage } from "gatsby-plugin-image"
+import { graphql } from "gatsby"
 import Layout from "../components/layout"
 
-const Now = ({}) => {
+export const query = graphql`
+  query {
+    markdownRemark(fileAbsolutePath: { regex: "/content/other/now/" }) {
+      html
+    }
+  }
+`
+
+function get_content(data) {
+  const { markdownRemark } = data
+  const { html } = markdownRemark
+  const html_to_render = { __html: html }
+  return html_to_render
+}
+
+const Now = ({ data }) => {
+  const html_to_render = get_content(data)
+
   return (
     <Layout>
-      <div className="now">This is what I'm doing now!</div>
+      <div dangerouslySetInnerHTML={html_to_render} />
     </Layout>
   )
 }
