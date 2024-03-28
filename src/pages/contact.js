@@ -21,23 +21,25 @@ import Layout from "../components/layout"
 
 export const query = graphql`
   query {
-    markdownRemark(fileAbsolutePath: { regex: "content/other/contact.md" }) {
+    markdownRemark(fileAbsolutePath: { regex: "/content/other/contact/" }) {
       html
     }
   }
 `
 
-const Contact = ({ data }) => {
-  console.log("Data below:")
-  console.log(data)
+function get_content(data) {
   const { markdownRemark } = data
   const { html } = markdownRemark
+  const html_to_render = { __html: html }
+  return html_to_render
+}
+
+const Contact = ({ data }) => {
+  const html_to_render = get_content(data)
 
   return (
     <Layout>
-      <div>
-        <MDXRenderer>{html}</MDXRenderer>
-      </div>
+      <div dangerouslySetInnerHTML={html_to_render} />
     </Layout>
   )
 }
