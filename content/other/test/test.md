@@ -153,11 +153,3 @@ Here's a "line block" (note how whitespace is honored):
 and images can be specified like so:
 
 ![example image](https://upload.wikimedia.org/wikipedia/commons/d/da/TitlePage_Burton%27s_Nights.jpg "An exemplary image")
-
-Inline math equation: $\omega = d\phi / dt$. Display
-math should get its own line like so:
-
-$$I = \int \rho R^{2} dV$$
-
-And note that you can backslash-escape any punctuation characters
-which you wish to be displayed literally, ex.: \`foo\`, \*bar\*, etc.
