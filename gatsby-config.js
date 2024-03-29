@@ -14,10 +14,10 @@ module.exports = {
       name: `collisteru`,
       summary: `Writer and software engineer.`,
     },
-    description: `A`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `Collisteru`,
+    siteUrl: `https://collisteru.net`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `collisteru`,
     },
   },
   plugins: [
@@ -36,8 +36,6 @@ module.exports = {
         name: `blog`,
       },
     },
-
-    `gatsby-transformer-remark`,
     "gatsby-plugin-mdx",
     {
       resolve: `gatsby-source-filesystem`,
@@ -76,7 +74,6 @@ module.exports = {
               strict: `ignore`,
             },
           },
-          `gatsby-remark-mathjax`,
         ],
       },
     },
