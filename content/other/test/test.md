@@ -158,9 +158,9 @@ Here's a "line block" (note how whitespace is honored):
 |   Line too
 | Line tree
 
-and images can be specified like so:
+and central images on their own line can be specified like so:
 
-![example image](https://upload.wikimedia.org/wikipedia/commons/d/da/TitlePage_Burton%27s_Nights.jpg "An exemplary image")
+![example image](https://mysticalpragmatics.net/images/ie-languages-evolution.png "An exemplary image")
 
 Inline math equation: $E = mc^2$. Display
 math should get its own line like so:[^2]
@@ -182,4 +182,4 @@ $$\color{blue}{\mathcal{O}(\log(n))} \equiv \color{red}{\mathbb{E}[1]}$$
 And note that you can backslash-escape any punctuation characters
 which you wish to be displayed literally, ex.: \`foo\`, \*bar\*, etc.
 
-<marquee>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</marquee>
+<marquee>That's all, folks!   That's all, folks!   That's all, folks!   That's all, folks!   That's all, folks!   That's all, folks!   That's all, folks!   That's all, folks!   That's all, folks!   That's all, folks!   That's all, folks!   That's all, folks!   That's all, folks!   That's all, folks!   That's all, folks!   That's all, folks!   That's all, folks!   That's all, folks!   That's all, folks!   That's all, folks!   That's all, folks!   That's all, folks!   That's all, folks!   That's all, folks!   That's all, folks!   That's all, folks!   That's all, folks!   </marquee>
