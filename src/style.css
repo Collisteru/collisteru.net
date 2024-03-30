@@ -286,16 +286,39 @@ quotesource {
   font-weight: bold;
   margin-bottom: var(--spacing-6);
 }
+/* ~~TABLES~~ */
 
 table {
-  width: 100%;
-  margin-bottom: var(--spacing-8);
+  border: 4px double;
   border-collapse: collapse;
-  border-spacing: 0.25rem;
+
+  margin: auto;
+  width: 95%;
+
+  text-align: left;
+  font-family: "Source Serif Regular";
+
+  table-layout: fixed;
 }
 
-table thead tr th {
-  border-bottom: 1px solid var(--color-accent);
+table tr,
+table td {
+  border: 1px solid;
+  padding: 5px;
+  font-family: "Source Serif Regular";
+  color: black;
+}
+
+/* Table header */
+table th {
+  border: 1px solid;
+}
+
+/* ~~TABLE OF WRITINGS~~ */
+
+table {
+  border-color: black;
+  /* Todo: Customize this further */
 }
 
 /* ~~ Links ~~ */
@@ -311,10 +334,12 @@ a:focus {
   text-decoration: none;
 }
 
-/* ~~ Math ~~ */
+/* ~~ Footnotes ~~ */
 
-.math {
-  text-align: center;
+/* This element is for a single footnote body */
+.footnotes {
+  float: footnote;
+  font-size: var(--fontSize-neg1);
 }
 
 /* Custom classes */
@@ -400,15 +425,9 @@ a:focus {
   color: black;
 }
 
-/* Media queries */
+/* ~~MISCELLANEOUS~~ */
 
-@media (max-width: 42rem) {
-  blockquote {
-    padding: var(--spacing-0) var(--spacing-0) var(--spacing-0) var(--spacing-4);
-    margin-left: var(--spacing-0);
-  }
-  ul,
-  ol {
-    list-style-position: inside;
-  }
+hr {
+  border: 1px solid rgb(0, 0, 0, 0.3);
+  max-width: 30%;
 }

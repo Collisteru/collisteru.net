@@ -2,7 +2,7 @@
 
 Paragraphs are separated by a blank line.
 
-2nd paragraph. _Italic_, **bold**, and `monospace`. Itemized lists
+2nd paragraph. _Italic_, **bold**, `monospace`, and <u> underlined</u>. Itemized lists
 look like:
 
 - this one
@@ -25,6 +25,8 @@ Use 3 dashes for an em-dash. Use 2 dashes for ranges (ex., "it's all
 in chapters 12--14"). Three dots ... will be converted to an ellipsis.
 Unicode is supported. ☺
 
+This means there is support for many important languages:
+
 Français:
 
 On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même. L'avantage du Lorem Ipsum sur un texte générique comme 'Du texte. Du texte. Du texte.' est qu'il possède une distribution de lettres plus ou moins normale, et en tout cas comparable avec celle du français standard. De nombreuses suites logicielles de mise en page ou éditeurs de sites Web ont fait du Lorem Ipsum leur faux texte par défaut, et une recherche pour 'Lorem Ipsum' vous conduira vers de nombreux sites qui n'en sont encore qu'à leur phase de construction. Plusieurs versions sont apparues avec le temps, parfois par accident, souvent intentionnellement (histoire d'y rajouter de petits clins d'oeil, voire des phrases embarassantes).
@@ -36,6 +38,8 @@ Ellenes:
 Hebrew: (Note: wrong direction of writing):
 
 כתב סרבול מיוחדים אל. אל בדף בארגז מתמטיקה ביוטכנולוגיה, צ'ט תיבת מתוך קלאסיים גם. דת אחרות העמוד כלל, העיר פולנית מדויקים אל שמו. מה הבאים לחשבון יוצרים לוח. סדר תורת טבלאות לויקיפדים של, למאמרים מיתולוגיה או אנא, מלא תורת אנתרופולוגיה את. כימיה ישראל בעברית בה שער, אם לחבר לחיבור מועמדים כלל.
+
+A<sup>superscript</sup> and a <sub>subscript</sub>.
 
 ## An h2 header
 
@@ -118,12 +122,14 @@ Tables can look like this:
 | February | $80     |
 | March    | $420    |
 
-Table: Shoes sizes, materials, and colors.
+You can align text in the columns to the left, right, or center by adding a colon (:) to the left, right, or on both side of the hyphens within the header row.
 
-(The above is the caption for the table.) Pandoc also supports
-multi-line tables:
+| Syntax      | Description | Test Text     |
+| :---        |    :----:   |          ---: |
+| Header      | Title       | Here's this   |
+| Paragraph   | Text        | And more      |
 
-f
+
 A horizontal rule follows.
 
 ---
@@ -155,7 +161,9 @@ and images can be specified like so:
 ![example image](https://upload.wikimedia.org/wikipedia/commons/d/da/TitlePage_Burton%27s_Nights.jpg "An exemplary image")
 
 Inline math equation: $E = mc^2$. Display
-math should get its own line like so:
+math should get its own line like so:[^2]
+
+[^2]: It’s time to put up or shut up.  The great thing about legal footnotes is that if you state a fact in a brief, you’d better have a footnote to back it up.  If you try to claim something (“It is well-established that courts can sanction parties after cases have been dismissed”), you’d better cite some cases or no one is going to pay much attention.  Think of how great that would be if the same standard was imposed on other professions – especially politicians!  What if a politician couldn’t make a claim (“Subsidizing the making of science fiction movies has been shown to increase the number of children interested in math and science”) without a footnote showing the support for their claim (See The George Lucas Foundation)?
 
 $$\mathcal{O}(\log(n)) \equiv \mathbb{E}[1]$$
 
@@ -171,3 +179,5 @@ $$\color{blue}{\mathcal{O}(\log(n))} \equiv \color{red}{\mathbb{E}[1]}$$
 
 And note that you can backslash-escape any punctuation characters
 which you wish to be displayed literally, ex.: \`foo\`, \*bar\*, etc.
+
+<marquee>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</marquee>
