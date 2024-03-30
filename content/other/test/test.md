@@ -110,9 +110,10 @@ that last line which continues item 3 above).
 
 #### An h4 header
 
-Here's a link to [a website](http://foo.bar), to a [local
-doc](local-doc.html), and to a [section heading in the current
-doc](#an-h2-header). Here's a footnote [^1].
+Emojis 🐉 sure 🦊 are 🐱 fun ♞‽
+
+Here's a link to [a website](http://foo.bar), and to a [local
+doc](/). Here's a footnote [^1].
 
 [^1]: Footnote text goes here.
 
@@ -138,36 +139,27 @@ A horizontal rule follows.
 
 ##### An h5 header
 
-Here's a definition list:
+~~The world is flat.~~  <mark>We now know that the world is round.</mark>
 
-apples
-: Good for making applesauce.
+I'll style these if I ever need to use them.
 
-oranges
-: Citrus!
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
 
-tomatoes
-: There's no "e" in tomatoe.
-
-Again, text is indented 4 spaces. (Put a blank line between each
-term and its definition to spread things out more.)
-
-Here's a "line block" (note how whitespace is honored):
-
-| Line one
-|   Line too
-| Line tree
-
-and central images on their own line can be specified like so:
+Central images on their own line can be specified like so:
 
 ![example image](https://mysticalpragmatics.net/images/ie-languages-evolution.png "An exemplary image")
+
 
 Inline math equation: $E = mc^2$. Display
 math should get its own line like so:[^2]
 
 [^2]: It’s time to put up or shut up.  The great thing about legal footnotes is that if you state a fact in a brief, you’d better have a footnote to back it up.  If you try to claim something (“It is well-established that courts can sanction parties after cases have been dismissed”), you’d better cite some cases or no one is going to pay much attention.  Think of how great that would be if the same standard was imposed on other professions – especially politicians!  What if a politician couldn’t make a claim (“Subsidizing the making of science fiction movies has been shown to increase the number of children interested in math and science”) without a footnote showing the support for their claim (See The George Lucas Foundation)?
 
+
 $$\mathcal{O}(\log(n)) \equiv \mathbb{E}[1]$$
+
 
 $$ \mathbb{E}[x_{i}]\approx \mu+\sigma\Phi^{-1}\left(\frac{i}{N+1}\right)\left[1+\frac{\left(\frac{i}{N+1}\right)\left(1-\frac{i}{N+1}\right)}{2(N+2)\left[\phi\left[\Phi^{-1}\left(\frac{i}{N+1}\right)\right]\right]^{2}}\right]$$
 
@@ -182,4 +174,4 @@ $$\color{blue}{\mathcal{O}(\log(n))} \equiv \color{red}{\mathbb{E}[1]}$$
 And note that you can backslash-escape any punctuation characters
 which you wish to be displayed literally, ex.: \`foo\`, \*bar\*, etc.
 
-<marquee>That's all, folks!   That's all, folks!   That's all, folks!   That's all, folks!   That's all, folks!   That's all, folks!   That's all, folks!   That's all, folks!   That's all, folks!   That's all, folks!   That's all, folks!   That's all, folks!   That's all, folks!   That's all, folks!   That's all, folks!   That's all, folks!   That's all, folks!   That's all, folks!   That's all, folks!   That's all, folks!   That's all, folks!   That's all, folks!   That's all, folks!   That's all, folks!   That's all, folks!   That's all, folks!   That's all, folks!   </marquee>
+<marquee>That's all, folks!  🐈  That's all, folks!  🐈   That's all, folks!  🐈  That's all, folks!  🐈    That's all, folks!  🐈  That's all, folks!  🐈    That's all, folks!  🐈  That's all, folks!  🐈    That's all, folks!  🐈  That's all, folks!  🐈    That's all, folks!  🐈  That's all, folks!  🐈    That's all, folks!  🐈  That's all, folks!  🐈    That's all, folks!  🐈  That's all, folks!  🐈    That's all, folks!  🐈  That's all, folks!  🐈    That's all, folks!  🐈  That's all, folks!  🐈    That's all, folks!  🐈  That's all, folks!  🐈    That's all, folks!  🐈  That's all, folks!  🐈    That's all, folks!  🐈  That's all, folks!  🐈    That's all, folks!  🐈  That's all, folks!  🐈    That's all, folks!  🐈  That's all, folks!  🐈    That's all, folks!  🐈  That's all, folks!  🐈    That's all, folks!  🐈  That's all, folks!  🐈    That's all, folks!  🐈  That's all, folks!  🐈    That's all, folks!  🐈  That's all, folks!  🐈    That's all, folks!  🐈  That's all, folks!  🐈    That's all, folks!  🐈  That's all, folks!  🐈    That's all, folks!  🐈  That's all, folks!  🐈    That's all, folks!  🐈  That's all, folks!  🐈    That's all, folks!  🐈  That's all, folks!  🐈    That's all, folks!  🐈  That's all, folks!  🐈      </marquee>

@@ -130,6 +130,13 @@ bdo {
   text-align: right;
 }
 
+/* ~~ Math ~~ */
+
+.math {
+  text-align: center;
+  line-height: 2.2;
+}
+
 span.math {
   text-align: center;
   line-height: 2.2;
@@ -251,6 +258,8 @@ p {
   padding: var(--spacing-0);
 }
 
+/* ~~CODE BLOCKS~~ */
+
 /* ~~ LISTS ~~ */
 
 /* ~~Unordered Lists~~ */
@@ -327,12 +336,23 @@ table {
 a {
   color: var(--light-blue);
   font-weight: bold;
-  text-decoration: none;
+  text-decoration: underline;
+}
+
+/* Style links to different websites */
+a[href^="http"] {
+  font-weight: bold;
+  color: #006400;
+}
+
+/* Style links to different pages on your own website */
+a:not([href^="http"]) {
+  font-weight: bold;
 }
 
 a:hover,
 a:focus {
-  text-decoration: none;
+  color: var(--color-text-light);
 }
 
 /* ~~ Footnotes ~~ */
@@ -387,6 +407,7 @@ img {
   margin-left: 10%;
   font-weight: bold;
   font-size: 1.5em;
+  text-decoration: none;
   color: gray;
 }
 
@@ -435,6 +456,16 @@ img {
 /* Overrides link color */
 .main-heading a {
   color: black;
+  text-decoration: none;
+}
+
+h2 a {
+  color: black;
+  text-decoration: none;
+}
+
+.gatsby-highlight {
+  background-color: inherit;
 }
 
 /* ~~MISCELLANEOUS~~ */
