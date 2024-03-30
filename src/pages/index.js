@@ -32,6 +32,12 @@ const BlogIndex = ({ data, location }) => {
                 className="post-list-item"
                 itemScope
                 itemType="http://schema.org/Article"
+                /* Make child divs side-by-side */
+                style={{
+                  /* Make each child heading closer to the next child div */
+                  marginBottom: `1.5rem`,
+                }}
+                /* Make each child div have a wider minimum space */
               >
                 <header>
                   <h2>
@@ -39,7 +45,6 @@ const BlogIndex = ({ data, location }) => {
                       <span itemProp="headline">{title}</span>
                     </Link>
                   </h2>
-                  <small>{post.frontmatter.date}</small>
                 </header>
                 <section>
                   <p
