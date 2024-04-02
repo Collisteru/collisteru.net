@@ -22,40 +22,52 @@ const BlogIndex = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
+      <h3>Welcome to the internet home of Collisteru!</h3>
+      <p>
+        Welcome to Collisteru's site! I'm a computer programmer, writer, and
+        general creator. My STEM interests include AI, functional programming,
+        web design, and math (especially analysis). On the humanities side, I
+        love classical music, history, pre-modern art, indie video games,
+        webcomics, Christianity, Buddhism, and philosophy.
+      </p>
+      <p>See the blog below.</p>
+      <hr></hr>
       <ol style={{ listStyle: `none` }}>
         {posts.map(post => {
           const title = post.frontmatter.title || post.fields.slug
 
           return (
-            <li key={post.fields.slug}>
-              <article
-                className="post-list-item"
-                itemScope
-                itemType="http://schema.org/Article"
-                /* Make child divs side-by-side */
-                style={{
-                  /* Make each child heading closer to the next child div */
-                  marginBottom: `1.5rem`,
-                }}
-                /* Make each child div have a wider minimum space */
-              >
-                <header>
-                  <h2>
-                    <Link to={post.fields.slug} itemProp="url">
-                      <span itemProp="headline">{title}</span>
-                    </Link>
-                  </h2>
-                </header>
-                <section>
-                  <p
-                    dangerouslySetInnerHTML={{
-                      __html: post.frontmatter.description || post.excerpt,
-                    }}
-                    itemProp="description"
-                  />
-                </section>
-              </article>
-            </li>
+            <div>
+              <li key={post.fields.slug}>
+                <article
+                  className="post-list-item"
+                  itemScope
+                  itemType="http://schema.org/Article"
+                  /* Make child divs side-by-side */
+                  style={{
+                    /* Make each child heading closer to the next child div */
+                    marginBottom: `1.5rem`,
+                  }}
+                  /* Make each child div have a wider minimum space */
+                >
+                  <header>
+                    <h2>
+                      <Link to={post.fields.slug} itemProp="url">
+                        <span itemProp="headline">{title}</span>
+                      </Link>
+                    </h2>
+                  </header>
+                  <section>
+                    <p
+                      dangerouslySetInnerHTML={{
+                        __html: post.frontmatter.description || post.excerpt,
+                      }}
+                      itemProp="description"
+                    />
+                  </section>
+                </article>
+              </li>
+            </div>
           )
         })}
       </ol>

@@ -56,20 +56,14 @@ const Layout = ({ children }) => {
         <Link to="/">Collisteru</Link>
       </h1>
       <div className="minor-header-links-container">
-        <Link to="/now" className="minor-header-link">
-          NOW
+        <Link to="/about" className="minor-header-link">
+          ABOUT
         </Link>
         <Link to="/software" className="minor-header-link">
           SOFTWARE
         </Link>
-        <Link to="/contact" className="minor-header-link">
-          CONTACT
-        </Link>
-        <Link to="/about" className="minor-header-link">
-          ABOUT
-        </Link>
         <Link to="/" className="minor-header-link">
-          BLOG
+          WRITING
         </Link>
       </div>
     </div>
