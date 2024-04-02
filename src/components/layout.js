@@ -62,8 +62,11 @@ const Layout = ({ children }) => {
         <Link to="/software" className="minor-header-link">
           SOFTWARE
         </Link>
-        <Link to="/" className="minor-header-link">
+        <Link to="/writing" className="minor-header-link">
           WRITING
+        </Link>
+        <Link to={rootPath} className="minor-header-link">
+          HOME
         </Link>
       </div>
     </div>

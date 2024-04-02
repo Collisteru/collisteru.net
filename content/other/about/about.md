@@ -1,6 +1,17 @@
 ### Now
 
-TODO: Write thids
+TODO: Write this
+
+### Social Media
+
+This site is meant to serve as an alternative to social media, so I'm not very active on any of these. But for utility's sake, here they are:
+
+* Reddit:
+* X:
+* DeviantArt: 
+* YouTube
+* Spotify
+
 
 ### Contact Collisteru
 

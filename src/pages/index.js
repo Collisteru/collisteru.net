@@ -1,111 +1,31 @@
 import * as React from "react"
-import { Link, graphql } from "gatsby"
-
+import { graphql } from "gatsby"
 import Layout from "../components/layout"
-import Seo from "../components/seo"
 
-const BlogIndex = ({ data, location }) => {
-  const siteTitle = data.site.siteMetadata?.title || `Title`
-  const posts = data.allMarkdownRemark.nodes
-
-  if (posts.length === 0) {
-    return (
-      <Layout location={location} title={siteTitle}>
-        <p>
-          No blog posts found. Add markdown posts to "content/blog" (or the
-          directory you specified for the "gatsby-source-filesystem" plugin in
-          gatsby-config.js).
-        </p>
-      </Layout>
-    )
+export const query = graphql`
+  query {
+    markdownRemark(fileAbsolutePath: { regex: "/content/other/home/" }) {
+      html
+    }
   }
+`
+
+function get_content(data) {
+  const { markdownRemark } = data
+  const { html } = markdownRemark
+  console.log(markdownRemark)
+  const html_to_render = { __html: html }
+  return html_to_render
+}
+
+const Index = ({ data }) => {
+  const html_to_render = get_content(data)
 
   return (
-    <Layout location={location} title={siteTitle}>
-      <h3>Welcome to the internet home of Collisteru!</h3>
-      <p>
-        Welcome to Collisteru's site! I'm a computer programmer, writer, and
-        general creator. My STEM interests include AI, functional programming,
-        web design, and math (especially analysis). On the humanities side, I
-        love classical music, history, pre-modern art, indie video games,
-        webcomics, Christianity, Buddhism, and philosophy.
-      </p>
-      <p>See the blog below.</p>
-      <hr></hr>
-      <ol style={{ listStyle: `none` }}>
-        {posts.map(post => {
-          const title = post.frontmatter.title || post.fields.slug
-
-          return (
-            <div>
-              <li key={post.fields.slug}>
-                <article
-                  className="post-list-item"
-                  itemScope
-                  itemType="http://schema.org/Article"
-                  /* Make child divs side-by-side */
-                  style={{
-                    /* Make each child heading closer to the next child div */
-                    marginBottom: `1.5rem`,
-                  }}
-                  /* Make each child div have a wider minimum space */
-                >
-                  <header>
-                    <h2>
-                      <Link to={post.fields.slug} itemProp="url">
-                        <span itemProp="headline">{title}</span>
-                      </Link>
-                    </h2>
-                  </header>
-                  <section>
-                    <p
-                      dangerouslySetInnerHTML={{
-                        __html: post.frontmatter.description || post.excerpt,
-                      }}
-                      itemProp="description"
-                    />
-                  </section>
-                </article>
-              </li>
-            </div>
-          )
-        })}
-      </ol>
+    <Layout>
+      <div dangerouslySetInnerHTML={html_to_render} />
     </Layout>
   )
 }
 
-export default BlogIndex
-
-/**
- * Head export to define metadata for the page
- *
- * See: https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/
- */
-export const Head = () => <Seo title="All posts" />
-
-export const pageQuery = graphql`
-  {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-    allMarkdownRemark(
-      sort: { frontmatter: { date: DESC } }
-      filter: { fileAbsolutePath: { regex: "/content/blog/" } }
-    ) {
-      nodes {
-        excerpt
-        fields {
-          slug
-        }
-        frontmatter {
-          date(formatString: "MMMM DD, YYYY")
-          title
-          description
-        }
-      }
-    }
-  }
-`
+export default Index
