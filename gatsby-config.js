@@ -12,7 +12,7 @@ module.exports = {
     title: `collisteru.net`,
     author: {
       name: `collisteru`,
-      summary: `Writer and software engineer.`,
+      summary: `Writings and software.`,
     },
     description: `Collisteru`,
     siteUrl: `https://collisteru.net`,

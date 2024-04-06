@@ -24,31 +24,31 @@ const Writing = ({ data, location }) => {
     <Layout location={location} title={siteTitle}>
       <h1>Writing:</h1>
       <hr></hr>
-      <ol style={{ listStyle: `none` }}>
-        {posts.map(post => {
-          const title = post.frontmatter.title || post.fields.slug
+      <table>
+        <tbody>
+          {posts.map(post => {
+            const title = post.frontmatter.title || post.fields.slug
 
-          return (
-            <div>
-              <li key={post.fields.slug}>
-                <article
-                  className="post-list-item"
-                  itemScope
-                  itemType="http://schema.org/Article"
-                  /* Make child divs side-by-side */
-                  style={{
-                    /* Make each child heading closer to the next child div */
-                    marginBottom: `1.5rem`,
-                  }}
-                  /* Make each child div have a wider minimum space */
-                >
-                  <header>
-                    <h2>
-                      <Link to={post.fields.slug} itemProp="url">
-                        <span itemProp="headline">{title}</span>
-                      </Link>
-                    </h2>
-                  </header>
+            console.log("post: ", post)
+
+            return (
+              <tr key={post.fields.slug}>
+                <td>
+                  <article
+                    className="post-list-item"
+                    itemScope
+                    itemType="http://schema.org/Article"
+                  >
+                    <header>
+                      <h2>
+                        <Link to={post.fields.slug} itemProp="url">
+                          <span itemProp="headline">{title}</span>
+                        </Link>
+                      </h2>
+                    </header>
+                  </article>
+                </td>
+                <td>
                   <section>
                     <p
                       dangerouslySetInnerHTML={{
@@ -57,12 +57,20 @@ const Writing = ({ data, location }) => {
                       itemProp="description"
                     />
                   </section>
-                </article>
-              </li>
-            </div>
-          )
-        })}
-      </ol>
+                </td>
+                <td>
+                  <img src={post.frontmatter.image} alt={title} />
+                </td>
+              </tr>
+            )
+          })}
+        </tbody>
+      </table>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
     </Layout>
   )
 }
@@ -93,9 +101,9 @@ export const pageQuery = graphql`
           slug
         }
         frontmatter {
-          date(formatString: "MMMM DD, YYYY")
           title
           description
+          thumbnail
         }
       }
     }
