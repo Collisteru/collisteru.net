@@ -1,7 +1,7 @@
 ---
 title: Hello World
 description: "A first test post."
-thumbnail: "./salty_egg.jpg"
+thumbnail: "../salty_egg.jpg"
 ---
 
 This is my first post on my new fake blog! How exciting!

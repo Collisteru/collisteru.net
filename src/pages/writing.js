@@ -28,7 +28,8 @@ const Writing = ({ data, location }) => {
         <tbody>
           {posts.map(post => {
             const title = post.frontmatter.title || post.fields.slug
-
+            console.log(post.frontmatter.thumbnail)
+            const image = post.frontmatter.thumbnail
             console.log("post: ", post)
 
             return (
@@ -58,8 +59,12 @@ const Writing = ({ data, location }) => {
                     />
                   </section>
                 </td>
-                <td>
-                  <img src={post.frontmatter.image} alt={title} />
+                <td style={{ textAlign: "center", verticalAlign: "middle" }}>
+                  <img
+                    src={image}
+                    alt={title}
+                    style={{ width: "500px", height: "auto", margin: 0 }}
+                  />
                 </td>
               </tr>
             )

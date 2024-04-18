@@ -48,9 +48,8 @@ function romanize(num) {
 // </Layout>
 const Layout = ({ children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
-  let header
 
-  header = (
+  let header = (
     <div className="header-container">
       <h1 className="main-heading">
         <Link to="/">Collisteru</Link>
@@ -72,23 +71,23 @@ const Layout = ({ children }) => {
     </div>
   )
 
+  // Style the below div so that text is centered
+  let footer = (
+    <div style={{ textAlign: "center" }}>
+      © {romanize(new Date().getFullYear())}
+    </div>
+  )
+
   return (
     <div className="global-wrapper">
       <head>
         {" "}
         <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-        {/* <script
-          id="MathJax-script"
-          async
-          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
-        ></script> */}
       </head>
       <header className="global-header">{header}</header>
       <main id="content">{children}</main>
       <div class="filler-150px"></div>
-      <footer className="global-footer">
-        © {romanize(new Date().getFullYear())}
-      </footer>
+      <footer className="global-footer"> {footer}</footer>
     </div>
   )
 }

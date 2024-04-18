@@ -12,7 +12,6 @@ module.exports = {
     title: `collisteru.net`,
     author: {
       name: `collisteru`,
-      summary: `Writings and software.`,
     },
     description: `Collisteru`,
     siteUrl: `https://collisteru.net`,
