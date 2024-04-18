@@ -1,4 +1,4 @@
-/* CSS Custom Properties Definitions */
+/* ~~ MAIN STYLESHEET FOR COLLISTERU.NET ~~ */
 
 :root {
   --maxWidth-none: "none";
@@ -311,17 +311,25 @@ table {
   table-layout: fixed;
 }
 
+/* Table header */
+table th {
+  border: 1px solid;
+  padding: 10px; /* Adds space inside cells */
+  border: 1px solid #ccc; /* Adds border to each cell */
+  word-wrap: break-word; /* Ensures text wraps to prevent overflow */
+}
+
 table tr,
 table td {
+  table-layout: auto;
   border: 1px solid;
   padding: 5px;
   font-family: "Source Serif Regular";
   color: black;
-}
-
-/* Table header */
-table th {
-  border: 1px solid;
+  padding: 10px; /* Adds space inside cells */
+  word-wrap: break-word; /* Ensures text wraps to prevent overflow */
+  min-width: 100px; /* Minimum width of the description cell */
+  max-width: 600px; /* Maximum width before the text wraps */
 }
 
 /* ~~TABLE OF WRITINGS~~ */

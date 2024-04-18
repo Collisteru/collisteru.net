@@ -1,4 +1,8 @@
-# Testing HTML Elements
+---
+title: Testing Collisteru.net
+description: "A better test post."
+thumbnail: "../swordmountain.png"
+---
 
 Paragraphs are separated by a blank line.
 
