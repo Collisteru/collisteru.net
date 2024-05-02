@@ -22,7 +22,7 @@ const Writing = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <h1>Writing:</h1>
+      <h1>Writing</h1>
       <hr></hr>
       <table>
         <tbody>
@@ -61,9 +61,14 @@ const Writing = ({ data, location }) => {
                 </td>
                 <td style={{ textAlign: "center", verticalAlign: "middle" }}>
                   <img
+                    class="pixel"
                     src={image}
                     alt={title}
-                    style={{ width: "500px", height: "auto", margin: 0 }}
+                    style={{
+                      width: "500px",
+                      height: "auto",
+                      margin: 0,
+                    }}
                   />
                 </td>
               </tr>
