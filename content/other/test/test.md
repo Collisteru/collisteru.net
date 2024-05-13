@@ -179,6 +179,8 @@ class HelloWorld {\
 }
 ```
 
+Keywords for each language can be found here: https://prismjs.com/s
+
 ### An h3 header
 
 Now a nested list:
