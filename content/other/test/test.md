@@ -266,6 +266,8 @@ The above Markdown is translated into the below HTML:
 
 <\img src="https://tutorial.math.lamar.edu/classes/de/DirectionFields_Files/image015.png" style="width: 250px"\>
 
+Figure out how to position images
+
 Inline math equation: $E = mc^2$. Display
 math should get its own line like so:[^2]
 

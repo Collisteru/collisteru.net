@@ -65,7 +65,7 @@ const Writing = ({ data, location }) => {
                     src={image}
                     alt={title}
                     style={{
-                      width: "500px",
+                      width: "150px",
                       height: "auto",
                       margin: 0,
                     }}

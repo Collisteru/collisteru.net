@@ -9,6 +9,7 @@ const BlogPostTemplate = ({
   location,
 }) => {
   const siteTitle = site.siteMetadata?.title || `Title`
+  const imgThumbnail = "../" + post.frontmatter.thumbnail
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -19,6 +20,14 @@ const BlogPostTemplate = ({
       >
         <header>
           <h1 itemProp="headline">{post.frontmatter.title}</h1>
+          <img
+            className="pixel"
+            style={{
+              width: "120px",
+            }}
+            src={imgThumbnail}
+            alt="article image"
+          />
           <p>{post.frontmatter.date}</p>
         </header>
         <section
@@ -87,6 +96,7 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        thumbnail
       }
     }
     previous: markdownRemark(id: { eq: $previousPostId }) {
