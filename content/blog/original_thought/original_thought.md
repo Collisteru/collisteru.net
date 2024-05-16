@@ -1,5 +1,6 @@
 ---
-title: On Original Thought
+title: Original Thought
+description: It doesn't exist
 thumbnail: "../icons/original_thought_icon_32x.png"
 ---
 

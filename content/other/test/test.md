@@ -262,7 +262,9 @@ Central images on their own line can be specified like so:
 
 ![example image](https://mysticalpragmatics.net/images/ie-languages-evolution.png "An exemplary image")
 
+The above Markdown is translated into the below HTML:
 
+<\img src="https://tutorial.math.lamar.edu/classes/de/DirectionFields_Files/image015.png" style="width: 250px"\>
 
 Inline math equation: $E = mc^2$. Display
 math should get its own line like so:[^2]
