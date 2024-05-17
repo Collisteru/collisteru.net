@@ -399,6 +399,11 @@ img {
   perspective: 1px;
 }
 
+/* Icons don't have borders */
+.icon {
+  border-width: 0px;
+}
+
 .pixel {
   image-rendering: pixelated;
 }
