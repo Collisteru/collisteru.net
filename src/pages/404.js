@@ -9,9 +9,35 @@ const NotFoundPage = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <h1>404: Not Found</h1>
-      <blockquote>Time flies over us, but leaves its shadow behind.</blockquote>
-      <quotesource>- Nathaniel Hawthorne</quotesource>
+      <h1>Dead End!</h1>
+      <img
+        style={{
+          width: "85%",
+        }}
+        src="../../ultima_1_dead_end_modified.png"
+        alt="404 image"
+      />
+      <h3>404: Not Found</h3>
+      <em>Try very hard to remember what you were looking for...</em>
+      <p>
+        Seems like you the page you've been looking for no longer exists! Or
+        maybe it didn't exist in the first place.
+      </p>
+      <p>You can try...</p>
+      <ol>
+        <li>... checking the spelling of the URL</li>
+        <li>
+          .. checking the{" "}
+          <a href="https://web.archive.org/" target="_blank">
+            Wayback Machine
+          </a>{" "}
+          if you believe the page you're looking for existed at some point.
+        </li>
+        <li>
+          ... going to the <a href="./writing">index</a>.
+        </li>
+        <li>... or you can just stay here and enjoy the mystery.</li>
+      </ol>
     </Layout>
   )
 }
