@@ -408,6 +408,10 @@ img {
   image-rendering: pixelated;
 }
 
+.badge {
+  border-width: 0px;
+}
+
 /* Custom classes */
 
 .global-wrapper {

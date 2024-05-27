@@ -266,6 +266,14 @@ The above Markdown is translated into the below HTML:
 
 <\img src="https://tutorial.math.lamar.edu/classes/de/DirectionFields_Files/image015.png" style="width: 250px"\>
 
+That's an online image. Local images can be specified like so:
+
+<img title="collisteru antipixel" src="/collisteru_antipixel.png">
+
+NOTE THAT LOCAL IMAGES *MUST* BE IN THE STATIC FOLDER. You can have subfolders in the static folder to organize things, but you must specify the full path to the image in the static folder.
+
+
+
 Figure out how to position images
 
 Inline math equation: $E = mc^2$. Display

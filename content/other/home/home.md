@@ -49,3 +49,12 @@ Design and inspiration-wise, the three biggest influences on this site were [Gwe
 ## Contact
 
 You can get in contact with me [here](../about). I'm always happy to hear from people who share my interests or who want to work on projects together. I'm also happy to help with any questions you have about the content on this site.
+
+
+---
+<!-- A flexbox all in a row, where all the images have a height of ten pixels. -->
+
+<div style="display: flex; justify-content: space-around;">
+    <img class="badge" title="collisteru antipixel" src="/badges/collisteru_antipixel.png" style="width: auto; height: 25px">
+</div>
+
