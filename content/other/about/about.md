@@ -1,6 +1,6 @@
 ### Now
 
-I'm in Europe as of Summer 2024. Rennes will be my home for most of the summer, but I may also go to Italy and the UK later on.
+I'm in Europe as of Summer 2024. Rennes will be my home for most of the summer, but I may also go to Italy and the UK later on. I am mainly studying French and working on this website.
 
 ### Social Media
 
