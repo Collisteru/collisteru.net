@@ -17,11 +17,13 @@ Welcome to Collisteru's little blog and portfolio site! It's inspired in part by
 
 - I'm a computer programmer, writer, and general creator. 
 - Professionally, I'm a Computer Science + Applied Math undergraduate at the University of Colorado.  
-- I work as an AI researcher in industry. I think AI is the most important technology of the century so far and am dedicated to making it safe and effective.
+- I work as an AI researcher in industry. I think AI is the most important technology of the century so far and am interested in making it safe and effective.
 
 ### Mission Statement:
 
 ## Interests:
+
+(NOT DONE YET, KEEP WORKING ON THIS!)SA
 
 This website is very much under construction, but will be added to over time as I get the chance to write about more interesting topics and program more. Here are some topics you'll see on tis website soon:
 

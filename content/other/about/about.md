@@ -22,6 +22,9 @@ Keep in mind that none of these accounts are checked regularly. Listed in order 
     <a href="https://techhub.social/@Collisteru">
         <img class="icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Mastodon_Logotype_%28Simple%29.svg/1024px-Mastodon_Logotype_%28Simple%29.svg.png" alt="Mastodon" style="width:auto; height:30px;">
     </a>  
+    <a href="https://puzzling.stackexchange.com/users/75614/collisteru">
+        <img class="icon" src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Stack_Exchange_icon.svg" style="width:auto; height:30px;">
+    </a>  
 
 </div>
 
