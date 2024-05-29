@@ -46,6 +46,9 @@ The design is inspired in part by late 90s / early 2000s web design and in part 
 
 Design and inspiration-wise, the three biggest influences on this site were [Gwern Branwen](https://www.gwern.net/), [betaveros](https://beta.vero.site/), and [Mark Rosenfelder](https://zompist.com/). I also regularly take inspiration from the [LessWrong](https://www.lesswrong.com/) and [Slate Star Codex](https://slatestarcodex.com/) communities.
 
+This site isn't optimized for mobile right now. In fact, it's basically illegible on mobile. I'm working on that.
+
+
 ## Contact
 
 You can get in contact with me [here](../about). I'm always happy to hear from people who share my interests or who want to work on projects together. I'm also happy to help with any questions you have about the content on this site.
@@ -54,7 +57,20 @@ You can get in contact with me [here](../about). I'm always happy to hear from p
 ---
 <!-- A flexbox all in a row, where all the images have a height of ten pixels. -->
 
-<div style="display: flex; justify-content: space-around;">
-    <img class="badge" title="collisteru antipixel" src="/badges/collisteru_antipixel.png" style="width: auto; height: 25px">
+<!-- Create a flexbox in a row where all the content grows out from the center. -->
+
+
+<div style="display: flex; justify-content: center; align-item: center;">
+    <img class="badge" title="collisteru antipixel" src="/badges/collisteru_antipixel.png" >
+    <a class="badge" href="https://dimden.dev/"><img class="badge" src="/badges/dimden_antipixel.gif" ></a>
+    <a class="badge" href="https://www.ashido.com/"><img class="badge" src="/badges/zarla_antipixel.gif"></a>
+    <a class="badge" href="https://en.wikipedia.org/wiki/Help:Introduction"><img class="badge" src="/badges/wikipedia_antipixel.png"></a>
+</div>
+<div style="display: flex; justify-content: center; align-item: center;">
+    <a class="badge" href="https://ardalambion.net/"><img class="badge" src="/badges/one_ring_ardalambion.gif"></a>
+    <a class="badge" href="https://web.archive.org/web/20080220004411/http://gtmcknight.com/buttons/blogware.php"><img class="badge" src="/badges/mck_antipixel.gif" ></a>
+    <img class="badge" src="/badges/american_antipixel.gif">
+    <img class="badge" src="/badges/coffeepower.png">
 </div>
 
+<br/>

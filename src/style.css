@@ -410,6 +410,9 @@ img {
 
 .badge {
   border-width: 0px;
+  margin: 3px;
+  width: auto;
+  height: 20px;
 }
 
 /* Custom classes */
