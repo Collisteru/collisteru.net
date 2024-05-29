@@ -20,8 +20,15 @@ const Layout = ({ location, title, children }) => {
     )
   }
 
+  // Script imports go inside the head element
   return (
     <div className="global-wrapper" data-is-root-path={isRootPath}>
+      <head>
+        <script
+          type="text/javascript"
+          src="//counter.websiteout.com/js/19/7/0/1"
+        ></script>
+      </head>
       <header className="global-header">{header}</header>
       <main>{children}</main>
       <footer>

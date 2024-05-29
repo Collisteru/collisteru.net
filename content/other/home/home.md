@@ -72,5 +72,7 @@ You can get in contact with me [here](../about). I'm always happy to hear from p
     <img class="badge" src="/badges/american_antipixel.gif">
     <img class="badge" src="/badges/coffeepower.png">
 </div>
+<p><script type="text/javascript" src="//counter.websiteout.com/js/19/7/0/1"></script>
+
 
 <br/>
