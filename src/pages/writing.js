@@ -34,7 +34,7 @@ const Writing = ({ data, location }) => {
 
             return (
               <tr key={post.fields.slug}>
-                <td>
+                <td aria-label="article headline">
                   <article
                     className="post-list-item"
                     itemScope
@@ -49,7 +49,7 @@ const Writing = ({ data, location }) => {
                     </header>
                   </article>
                 </td>
-                <td>
+                <td aria-label="article headline">
                   <section>
                     <p
                       dangerouslySetInnerHTML={{
@@ -61,7 +61,7 @@ const Writing = ({ data, location }) => {
                 </td>
                 <td style={{ textAlign: "center", verticalAlign: "middle" }}>
                   <img
-                    class="pixel"
+                    className="pixel"
                     src={image}
                     alt={title}
                     style={{
