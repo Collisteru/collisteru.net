@@ -106,6 +106,7 @@ export const pageQuery = graphql`
       filter: { fileAbsolutePath: { regex: "/content/blog/" } }
     ) {
       nodes {
+        excerpt
         fields {
           slug
         }

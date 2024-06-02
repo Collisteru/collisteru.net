@@ -415,7 +415,7 @@ img {
   width: 100%;
   margin: 0px;
   padding: 0px;
-  border-width: 0px;
+  border-radius: 0px;
 }
 
 .badge {

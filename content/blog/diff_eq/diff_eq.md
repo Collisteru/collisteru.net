@@ -1,5 +1,6 @@
 ---
 title: Notes on Differential Equations
+description: Mostly summaries of solution methods
 thumbnail: "../icons/diff_eqs_icon.png"
 ---
 
@@ -301,7 +302,7 @@ So far, we have only considered first-order differential equations which is char
 We’ll mostly cover tricks to solve DEs in the following form:
 
 $$
-p_{1}y^{\'\'}+p_{2}(t)y^{\'}+p_{3}(t)y=g(t)
+p_{1}y^{\prime\prime}+ p_{2}(t)y^{\prime}+p_{3}(t)y=g(t)
 $$
 
 There are two categories of equations in this form: <em>homogeneous</em> ones where $g(t) = 0$, and <em>nonhomogeneous</em> ones where $g(t) \neq 0 $. We’ll start with the homogeneous case, which is simpler.
