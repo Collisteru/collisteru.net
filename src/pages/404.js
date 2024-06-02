@@ -15,7 +15,7 @@ const NotFoundPage = ({ data, location }) => {
           width: "85%",
         }}
         src="../../ultima_1_dead_end_modified.png"
-        alt="404 image"
+        alt="a dead end in a dungeon from Ultima I: The First Age of Darkness"
       />
       <h3>404: Not Found</h3>
       <em>Try very hard to remember what you were looking for...</em>
@@ -28,7 +28,7 @@ const NotFoundPage = ({ data, location }) => {
         <li>... checking the spelling of the URL</li>
         <li>
           .. checking the{" "}
-          <a href="https://web.archive.org/" target="_blank">
+          <a href="https://web.archive.org/" target="_blank" rel="noreferrer">
             Wayback Machine
           </a>{" "}
           if you believe the page you're looking for existed at some point.

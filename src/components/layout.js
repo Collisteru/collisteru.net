@@ -71,6 +71,10 @@ const Layout = ({ children }) => {
     </div>
   )
 
+  let below_image = (
+    <img className="pixel_footer" src="/art/boulder1.png" alt="Mountains"></img>
+  )
+
   // Style the below div so that text is centered
   let footer = (
     <div style={{ textAlign: "center" }}>
@@ -83,6 +87,8 @@ const Layout = ({ children }) => {
       <header className="global-header">{header}</header>
       <main id="content">{children}</main>
       <div className="filler-150px"></div>
+      {below_image}
+      <div className="filler-100px"></div>
       <footer className="global-footer"> {footer}</footer>
     </div>
   )

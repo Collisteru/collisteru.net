@@ -74,5 +74,4 @@ You can get in contact with me [here](../about). I'm always happy to hear from p
 </div>
 <p><script type="text/javascript" src="//counter.websiteout.com/js/19/7/0/1"></script>
 
-
 <br/>

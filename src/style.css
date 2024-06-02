@@ -399,6 +399,8 @@ img {
   perspective: 1px;
 }
 
+/** Image Styles **/
+
 /* Icons don't have borders */
 .icon {
   border-width: 0px;
@@ -406,6 +408,14 @@ img {
 
 .pixel {
   image-rendering: pixelated;
+}
+
+.pixel_footer {
+  image-rendering: pixelated;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  border-width: 0px;
 }
 
 .badge {
@@ -468,6 +478,10 @@ img {
 
 .filler-150px {
   height: 150px;
+}
+
+.filler-100px {
+  height: 100px;
 }
 
 #content {

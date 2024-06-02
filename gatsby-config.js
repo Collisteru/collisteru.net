@@ -118,8 +118,6 @@ module.exports = {
             query: `{
               allMarkdownRemark(sort: {frontmatter: {date: DESC}}) {
                 nodes {
-                  excerpt
-                  html
                   fields {
                     slug
                   }

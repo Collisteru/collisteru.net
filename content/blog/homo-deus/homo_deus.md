@@ -6,7 +6,7 @@ thumbnail: "../icons/homo_deus_icon.png"
 
 _Homo Deus_ is part two of Yuval Noah Harari’s humble quest to explain all of history. In  _Sapiens,_ he created a model of how humans rose to become Earth’s apex predator and most powerful ecological force. In _Homo Deus,_ he refines this model and makes predictions about culture in a transhuman future.
 
-Harari’s a bit of an intellectual maverick. His books bring you on a reckless tour through nearly every field of study, taking potshots at common opinion wherever they can. Each chapter escalates the weirdness until you feel peculiar yourself for agreeing with him.
+Harari’s a bit of an intellectual maverick. His books bring you on a reckless tour through nearly every field of study, taking potshots at common opinion wherever they can. Each chapter escalates the weirdness until you feel peculiar yourself for agreeing with him.s
 
 Though anthropology is its principal subject, _Homo Deus_ dips into fields as diverse as evolutionary psychology, computer science, and literary criticism. Even if you disagree with Harari’s thesis, you will learn something from this book.
 

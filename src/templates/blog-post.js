@@ -26,7 +26,7 @@ const BlogPostTemplate = ({
               width: "150px",
             }}
             src={imgThumbnail}
-            alt="article image"
+            alt="Thumbnail for the post"
           />
           <p>{post.frontmatter.date}</p>
         </header>
@@ -90,8 +90,6 @@ export const pageQuery = graphql`
     }
     markdownRemark(id: { eq: $id }) {
       id
-      excerpt(pruneLength: 160)
-      html
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")

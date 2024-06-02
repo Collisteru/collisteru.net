@@ -272,8 +272,6 @@ That's an online image. Local images can be specified like so:
 
 NOTE THAT LOCAL IMAGES *MUST* BE IN THE STATIC FOLDER. You can have subfolders in the static folder to organize things, but you must specify the full path to the image in the static folder.
 
-
-
 Figure out how to position images
 
 Inline math equation: $E = mc^2$. Display
