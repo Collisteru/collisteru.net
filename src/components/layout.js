@@ -72,7 +72,11 @@ const Layout = ({ children }) => {
   )
 
   let below_image = (
-    <img className="pixel_footer" src="/art/boulder1.png" alt="Mountains"></img>
+    <img
+      className="pixel_footer"
+      src="/art/boulderbg_fin1.png"
+      alt="Mountains"
+    ></img>
   )
 
   // Style the below div so that text is centered
