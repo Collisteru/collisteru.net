@@ -425,7 +425,25 @@ img {
   height: 20px;
 }
 
-/* Custom classes */
+/* Header */
+
+/* ~~USE MEDIA QUERIES TO MAKE SIZES CHANGE DEPENDING ON THE SIZE OF THE VIEWPORT!! */
+
+/* Styles for screens larger than 768px
+@media (min-width: 768px) {
+    .element {
+        background-color: green;
+        font-size: 18px;
+    }
+} */
+
+/* Styles for screens smaller than 768px */
+/* @media (max-width: 768px) {
+    .element {
+        background-color: red;
+        font-size: 14px;
+    }
+} */
 
 .global-wrapper {
   margin: var(--spacing-0) auto;
@@ -445,6 +463,32 @@ img {
   padding-left: 5%;
 }
 
+@media (max-width: 1000px) {
+  .global-header {
+    padding-right: 5%;
+  }
+}
+
+@media (max-width: 600px) {
+  .global-header {
+    height: 160px;
+  }
+}
+
+.header-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 0;
+}
+
+@media (max-width: 1000px) {
+  .header-container {
+    display: inline;
+  }
+}
+
 .minor-header-links-container {
   display: flex;
   justify-content: space-between;
@@ -452,6 +496,29 @@ img {
   flex-direction: row-reverse;
   margin-right: 10%;
   margin-left: 215px;
+}
+
+@media (max-width: 1000px) {
+  .minor-header-links-container {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 600px) {
+  .minor-header-links-container {
+    display: grid;
+    grid-template-columns: repeat(
+      2,
+      1fr
+    ); /* Creates four equal-width columns */
+    grid-template-rows: repeat(
+      2,
+      auto
+    ); /* Creates four rows with automatic height */
+    gap: 10px; /* Adjust this value to control the space between grid items */
+    margin-right: 10%;
+    margin-left: 0px;
+  }
 }
 
 .minor-header-link {
@@ -462,12 +529,10 @@ img {
   color: gray;
 }
 
-.header-container {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-left: 0;
+@media (max-width: 1000px) {
+  .minor-header-link {
+    margin-left: 0px;
+  }
 }
 
 .header-link-home {
