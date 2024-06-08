@@ -328,6 +328,12 @@ p {
   background: black;
 }
 
+@media (max-width: 600px) {
+  .gatsby-highlight {
+    font-size: 0.675em;
+  }
+}
+
 pre[class*="language-"] {
   padding-top: 0 !important;
   padding-bottom: 0 !important;
