@@ -264,7 +264,9 @@ Central images on their own line can be specified like so:
 
 The above Markdown is translated into the below HTML:
 
-<\img src="https://tutorial.math.lamar.edu/classes/de/DirectionFields_Files/image015.png" style="width: 250px"\>
+<!-- <\img src="https://tutorial.math.lamar.edu/classes/de/DirectionFields_Files/image015.png" style="width: 250px"\> -->
+
+Warning: don't have certain lines (?) be too long as they will break the @media-based layout on mobile.
 
 That's an online image. Local images can be specified like so:
 
@@ -282,8 +284,11 @@ math should get its own line like so:[^2]
 
 $$\mathcal{O}(\log(n)) \equiv \mathbb{E}[1]$$
 
+NOTE AND TODO: Very long equations like below sometimes prevent the content element from properly narrowing on some very small screens.
+
 
 $$ \mathbb{E}[x_{i}]\approx \mu+\sigma\Phi^{-1}\left(\frac{i}{N+1}\right)\left[1+\frac{\left(\frac{i}{N+1}\right)\left(1-\frac{i}{N+1}\right)}{2(N+2)\left[\phi\left[\Phi^{-1}\left(\frac{i}{N+1}\right)\right]\right]^{2}}\right]$$
+
 
 $$P(a|b) = \frac{P(b|a) \cdot P(a)}{(P(b|a) \cdot P(a)) + (P(b|\lnot a) \cdot P(\lnot a))} = \frac{0.05 \cdot 0.9}{((0.05 \cdot 0.9) + (0.95 \cdot 0.1))} = \frac{0.045}{((0.05 \cdot 0.9) + (0.95 \cdot 0.1))} = \frac{0.045}{(0.045 + (0.95 \cdot 0.1))} = \frac{0.045}{(0.045 + 0.095)} = \frac{0.045}{0.14} = 0.32$$
 

@@ -61,7 +61,7 @@ You can get in contact with me [here](../about). I'm always happy to hear from p
 
 
 <div style="display: flex; justify-content: center; align-item: center;">
-    <img class="badge" title="collisteru antipixel" src="/badges/collisteru_antipixel.png" >
+    <a class="badge" href="https://dimden.dev/"><img class="badge" src="/badges/collisteru_antipixel.png"></a>
     <a class="badge" href="https://dimden.dev/"><img class="badge" src="/badges/dimden_antipixel.gif" ></a>
     <a class="badge" href="https://www.ashido.com/"><img class="badge" src="/badges/zarla_antipixel.gif"></a>
     <a class="badge" href="https://en.wikipedia.org/wiki/Help:Introduction"><img class="badge" src="/badges/wikipedia_antipixel.png"></a>
@@ -69,8 +69,8 @@ You can get in contact with me [here](../about). I'm always happy to hear from p
 <div style="display: flex; justify-content: center; align-item: center;">
     <a class="badge" href="https://ardalambion.net/"><img class="badge" src="/badges/one_ring_ardalambion.gif"></a>
     <a class="badge" href="https://web.archive.org/web/20080220004411/http://gtmcknight.com/buttons/blogware.php"><img class="badge" src="/badges/mck_antipixel.gif" ></a>
-    <img class="badge" src="/badges/american_antipixel.gif">
-    <img class="badge" src="/badges/coffeepower.png">
+    <a class="badge" ><img class="badge" src="/badges/american_antipixel.gif"></a>
+    <a class="badge" ><img class="badge" src="/badges/coffeepower.png"></a>
 </div>
 <p><script type="text/javascript" src="//counter.websiteout.com/js/19/7/0/1"></script>
 
