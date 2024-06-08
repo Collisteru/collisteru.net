@@ -126,6 +126,14 @@ p {
   font-family: "Source Serif Regular";
 }
 
+/* All text shrinks by 25% at 600px */
+
+@media (max-width: 600px) {
+  p {
+    font-size: 12px;
+  }
+}
+
 bdo {
   text-align: right;
 }
@@ -135,6 +143,12 @@ bdo {
 .math {
   text-align: center;
   line-height: 2.2;
+}
+
+@media (max-width: 600px) {
+  .math {
+    font-size: 10px;
+  }
 }
 
 span.math {
@@ -189,6 +203,12 @@ blockquote p {
   color: var(--color-text-light);
 }
 
+@media (max-width: 600px) {
+  blockquote p {
+    font-size: 0.5205em;
+  }
+}
+
 cite {
   font-size: var(--fontSize-0);
   font-family: "Source Serif Regular";
@@ -207,6 +227,12 @@ h1 {
   font-variant: small-caps;
 }
 
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2.293rem;
+  }
+}
+
 /*Heading Two: Section Titles*/
 h2 {
   font-size: var(--fontSize-5);
@@ -218,6 +244,20 @@ h2 {
   font-variant: small-caps;
 }
 
+@media (max-width: 600px) {
+  h2 {
+    font-size: 1.5555rem;
+  }
+}
+
+/* h2 has to shrink again to not break tables of writings */
+
+@media (max-width: 400px) {
+  h2 {
+    font-size: 1.11rem;
+  }
+}
+
 /*Heading Three: SubsectionTitles*/
 h3 {
   text-align: center;
@@ -226,15 +266,33 @@ h3 {
   font-variant: small-caps;
 }
 
+@media (max-width: 600px) {
+  h3 {
+    font-size: 1.08rem;
+  }
+}
+
 h4 {
   font-size: var(--fontSize-2);
   font-family: "Source Serif Regular";
   font-variant: small-caps;
 }
 
+@media (max-width: 600px) {
+  h4 {
+    font-size: 0.9rem;
+  }
+}
+
 h5 {
   font-size: var(--fontSize-1);
   font-variant: small-caps;
+}
+
+@media (max-width: 600px) {
+  h5 {
+    font-size: 0.75rem;
+  }
 }
 
 h3.heading-blue {
@@ -292,6 +350,12 @@ ul li {
   color: rgb(71, 66, 42);
 }
 
+@media (max-width: 600px) {
+  ul li {
+    font-size: 6;
+  }
+}
+
 /* ~~Ordered Lists~~ */
 
 ol {
@@ -302,6 +366,12 @@ ol {
 li {
   color: rgb(71, 66, 42);
   font-family: "Source Serif Regular";
+}
+
+@media (max-width: 600px) {
+  li {
+    font-size: 12px;
+  }
 }
 
 quotesource {
