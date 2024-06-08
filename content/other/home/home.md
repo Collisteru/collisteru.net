@@ -46,8 +46,6 @@ The design is inspired in part by late 90s / early 2000s web design and in part 
 
 Design and inspiration-wise, the three biggest influences on this site were [Gwern Branwen](https://www.gwern.net/), [betaveros](https://beta.vero.site/), and [Mark Rosenfelder](https://zompist.com/). I also regularly take inspiration from the [LessWrong](https://www.lesswrong.com/) and [Slate Star Codex](https://slatestarcodex.com/) communities.
 
-This site isn't optimized for mobile right now. In fact, it's basically illegible on mobile. I'm working on that.
-
 
 ## Contact
 
