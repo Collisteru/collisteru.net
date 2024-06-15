@@ -277,7 +277,7 @@ NOTE THAT LOCAL IMAGES *MUST* BE IN THE STATIC FOLDER. You can have subfolders i
 Figure out how to position images
 
 Inline math equation: $E = mc^2$. Display
-math should get its own line like so:[^2]
+math should get its own line like so:[^2]s
 
 [^2]: It’s time to put up or shut up.  The great thing about legal footnotes is that if you state a fact in a brief, you’d better have a footnote to back it up.  If you try to claim something (“It is well-established that courts can sanction parties after cases have been dismissed”), you’d better cite some cases or no one is going to pay much attention.  Think of how great that would be if the same standard was imposed on other professions – especially politicians!  What if a politician couldn’t make a claim (“Subsidizing the making of science fiction movies has been shown to increase the number of children interested in math and science”) without a footnote showing the support for their claim (See The George Lucas Foundation)?
 
