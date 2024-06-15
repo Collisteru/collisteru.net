@@ -173,6 +173,11 @@ blockquote {
   position: relative;
 }
 
+blockquote.dailyquote {
+  padding: 10px 0px 10px;
+  position: relative;
+}
+
 blockquote::before {
   color: black;
   content: "";
@@ -216,6 +221,13 @@ cite {
   color: rgba(30, 30, 0);
   text-align: right;
   display: block;
+}
+
+/* Background color for the whole dailyquote */
+#dailyquote {
+  background-color: var(--white);
+  padding: 0;
+  margin: 0px;
 }
 
 /*Heading One: Article Titles*/

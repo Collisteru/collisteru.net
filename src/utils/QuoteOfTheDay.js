@@ -23,6 +23,7 @@ const QuoteOfTheDay = () => {
   // When a quote is chosen, that index is eliminated and skipped
 
   const quotes = data.allQuotesCsv.nodes
+  console.log(quotes)
   const today = new Date()
   const dayOfYear = Math.floor(
     (today - new Date(today.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24
@@ -31,8 +32,8 @@ const QuoteOfTheDay = () => {
 
   return (
     <div>
-      <div id="content">
-        <blockquote>
+      <div id="dailyquote">
+        <blockquote className="dailyquote">
           "{quote.quote}"{quote.author && <footer>- {quote.author}</footer>}
         </blockquote>
       </div>

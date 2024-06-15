@@ -1,6 +1,7 @@
 import * as React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
+import QuoteOfTheDay from "../utils/QuoteOfTheDay"
 
 export const query = graphql`
   query {
@@ -22,7 +23,7 @@ const Index = ({ data }) => {
   const html_to_render = get_content(data)
 
   return (
-    <Layout>
+    <Layout quote={<QuoteOfTheDay />}>
       <div dangerouslySetInnerHTML={html_to_render} />
     </Layout>
   )

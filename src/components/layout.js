@@ -1,6 +1,5 @@
 import * as React from "react"
 import { Link } from "gatsby"
-import QuoteOfTheDay from "../utils/QuoteOfTheDay"
 
 function romanize(num) {
   if (isNaN(num)) return NaN
@@ -47,7 +46,7 @@ function romanize(num) {
 // <Layout>
 //   <h1>My Page</h1>
 // </Layout>
-const Layout = ({ children }) => {
+const Layout = ({ children, quote }) => {
   const rootPath = `${__PATH_PREFIX__}/`
 
   let header = (
@@ -91,7 +90,7 @@ const Layout = ({ children }) => {
     <div className="global-wrapper">
       <header className="global-header">{header}</header>
       <main id="content">{children}</main>
-      <QuoteOfTheDay />
+      {quote}
       <div className="filler-150px"></div>
       {below_image}
       <div className="filler-100px"></div>
