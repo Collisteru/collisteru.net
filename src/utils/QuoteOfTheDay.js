@@ -33,15 +33,27 @@ const QuoteOfTheDay = () => {
 
   return (
     <div>
-      <div id="dailyquote">
-        <blockquote className="dailyquote">
-          {quote.quote}
-          {quote.author && (
-            <footer className="dailyquotefooter">
-              - <em>{quote.author}</em>
-            </footer>
-          )}
-        </blockquote>
+      <div id="dailyquote-container">
+        <img
+          src="/art/scrollEndLeft.png"
+          alt="Left image"
+          className="side-image"
+        />
+        <div id="dailyquote">
+          <blockquote className="dailyquote">
+            {quote.quote}
+            {quote.author && (
+              <footer className="dailyquotefooter">
+                - <em>{quote.author}</em>
+              </footer>
+            )}
+          </blockquote>
+        </div>
+        <img
+          src="/art/scrollEndRight.png"
+          className="side-image"
+          id="rightSideImage"
+        />
       </div>
     </div>
   )

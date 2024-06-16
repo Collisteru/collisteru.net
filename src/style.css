@@ -195,13 +195,25 @@ blockquote::after {
   width: 200px;
 }
 
+blockquote p {
+  color: rgba(30, 30, 0);
+  font-size: var(--fontSize-neg1);
+  margin-bottom: var(--spacing-0);
+  color: var(--color-text-light);
+}
+
+@media (max-width: 600px) {
+  blockquote p {
+    font-size: 0.5205em;
+  }
+}
+
 /* ~~ Dailyquote Styling ~~ */
 
 /* Dailyquote wrapper, which provides the background color  */
 #dailyquote {
-  background-color: var(--white);
-  margin-left: 50px;
-  margin-right: 50px;
+  background-color: #dfdbc8;
+
   padding: 0;
 }
 
@@ -209,6 +221,8 @@ blockquote.dailyquote {
   padding: 10px 0px 10px;
   margin-left: 10px;
   margin-right: 10px;
+  flex: 1; /* Allow the quote to take up remaining space */
+  text-align: center; /* Center align the text */
 }
 
 blockquote.dailyquote::before {
@@ -224,17 +238,27 @@ footer.dailyquotefooter {
   padding-bottom: 0px;
 }
 
-blockquote p {
-  color: rgba(30, 30, 0);
-  font-size: var(--fontSize-neg1);
-  margin-bottom: var(--spacing-0);
-  color: var(--color-text-light);
+#dailyquote-container {
+  margin-top: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  align-items: stretch;
+  height: 150px;
 }
 
-@media (max-width: 600px) {
-  blockquote p {
-    font-size: 0.5205em;
-  }
+.side-image {
+  align-self: stretch;
+  border: 0px;
+  flex: 0 0 auto;
+  height: auto;
+  margin: 0px;
+  height: 150px;
+}
+
+.dailyquotefooter {
+  text-align: right;
+  margin-top: 10px;
 }
 
 cite {
