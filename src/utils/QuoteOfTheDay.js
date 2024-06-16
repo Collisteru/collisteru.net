@@ -40,8 +40,16 @@ const QuoteOfTheDay = () => {
           className="side-image"
         />
         <div id="dailyquote">
-          <blockquote className="dailyquote">
+          {/* <blockquote className="dailyquote">
             {quote.quote}
+            {quote.author && (
+              <footer className="dailyquotefooter">
+                - <em>{quote.author}</em>
+              </footer>
+            )}
+          </blockquote> */}
+          <blockquote className="dailyquote">
+            Lorem ipsum dolor sit amet
             {quote.author && (
               <footer className="dailyquotefooter">
                 - <em>{quote.author}</em>
