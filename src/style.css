@@ -212,8 +212,8 @@ blockquote p {
 
 /* Dailyquote wrapper, which provides the background color  */
 #dailyquote {
+  width: 400px;
   background-color: #dfdbc8;
-
   padding: 0;
 }
 
@@ -221,6 +221,8 @@ blockquote.dailyquote {
   padding: 10px 0px 10px;
   margin-left: 10px;
   margin-right: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   flex: 1; /* Allow the quote to take up remaining space */
   text-align: center; /* Center align the text */
 }
@@ -242,9 +244,10 @@ footer.dailyquotefooter {
   margin-top: 10px;
   margin-left: 50px;
   margin-right: 50px;
-  display: flex;
+  display: inline-flex;
   align-items: stretch;
-  height: 150px;
+  height: 180px;
+  vertical-align: middle;
 }
 
 .side-image {
@@ -253,7 +256,7 @@ footer.dailyquotefooter {
   flex: 0 0 auto;
   height: auto;
   margin: 0px;
-  height: 150px;
+  height: 180px;
 }
 
 .dailyquotefooter {
