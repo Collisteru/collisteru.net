@@ -28,13 +28,19 @@ const QuoteOfTheDay = () => {
   const dayOfYear = Math.floor(
     (today - new Date(today.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24
   )
-  const quote = quotes[dayOfYear % quotes.length]
+  // const quote = quotes[dayOfYear % quotes.length]
+  const quote = quotes[1]
 
   return (
     <div>
       <div id="dailyquote">
         <blockquote className="dailyquote">
-          "{quote.quote}"{quote.author && <footer>- {quote.author}</footer>}
+          {quote.quote}
+          {quote.author && (
+            <footer className="dailyquotefooter">
+              - <em>{quote.author}</em>
+            </footer>
+          )}
         </blockquote>
       </div>
     </div>

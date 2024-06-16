@@ -170,12 +170,6 @@ em {
 
 blockquote {
   padding: 60px 0px 40px;
-  position: relative;
-}
-
-blockquote.dailyquote {
-  padding: 10px 0px 10px;
-  position: relative;
 }
 
 blockquote::before {
@@ -201,6 +195,35 @@ blockquote::after {
   width: 200px;
 }
 
+/* ~~ Dailyquote Styling ~~ */
+
+/* Dailyquote wrapper, which provides the background color  */
+#dailyquote {
+  background-color: var(--white);
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 0;
+}
+
+blockquote.dailyquote {
+  padding: 10px 0px 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+blockquote.dailyquote::before {
+  border-bottom: 0px;
+}
+
+blockquote.dailyquote::after {
+  border-bottom: 0px;
+}
+
+footer.dailyquotefooter {
+  padding-top: 10px;
+  padding-bottom: 0px;
+}
+
 blockquote p {
   color: rgba(30, 30, 0);
   font-size: var(--fontSize-neg1);
@@ -221,13 +244,6 @@ cite {
   color: rgba(30, 30, 0);
   text-align: right;
   display: block;
-}
-
-/* Background color for the whole dailyquote */
-#dailyquote {
-  background-color: var(--white);
-  padding: 0;
-  margin: 0px;
 }
 
 /*Heading One: Article Titles*/
