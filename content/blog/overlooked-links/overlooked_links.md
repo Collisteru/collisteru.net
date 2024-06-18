@@ -96,6 +96,7 @@ Note: I don’t list them here because they tend to be overly specific, but univ
 
 ## Arts and Culture
 
+- [Artcyclopedia](http://www.artcyclopedia.com/) – A searchable database of art, my favorite on the web
 - [WikiArt](https://meet.google.com/mgb-dnoc-bdi?pli=1) – Wikipedia for art
 - [Just SketchMe](https://app.justsketch.me/) – You know the little wooden mannequins artists pose as character references? There’s an app for that. This is the app.
 - [Drawabox](https://drawabox.com/) – Free drawing lessons and exercises with a thriving community to match.

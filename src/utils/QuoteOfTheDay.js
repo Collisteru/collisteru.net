@@ -32,37 +32,18 @@ const QuoteOfTheDay = () => {
   const quote = quotes[1]
 
   return (
-    <div>
+    <div class="quote-outer-div">
       <div id="dailyquote-container">
-        <img
-          src="/art/scrollEndLeft.png"
-          alt="Left image"
-          className="side-image"
-        />
-        <div id="dailyquote">
-          {/* <blockquote className="dailyquote">
-            {quote.quote}
-            {quote.author && (
-              <footer className="dailyquotefooter">
-                - <em>{quote.author}</em>
-              </footer>
-            )}
-          </blockquote> */}
-          <blockquote className="dailyquote">
-            Lorem ipsum dolor sit amet
-            {quote.author && (
-              <footer className="dailyquotefooter">
-                - <em>{quote.author}</em>
-              </footer>
-            )}
-          </blockquote>
+        <div class="side-decoration"></div>
+        <div id="dailyquote-and-author">
+          <blockquote id="dailyquote"> Nuthn'to say. </blockquote>
+          <div id="dailyquoteauthor">
+            - <em>Berenstein Bear</em>
+          </div>
         </div>
-        <img
-          src="/art/scrollEndRight.png"
-          className="side-image"
-          id="rightSideImage"
-        />
+        <div class="side-decoration"></div>
       </div>
+      <div />
     </div>
   )
 }
