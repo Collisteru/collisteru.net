@@ -7,14 +7,13 @@ import { graphql, useStaticQuery } from "gatsby"
 // Fisher-Yates Shuffle
 // https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
 
-// TODO: Figure out how to complete this query without creating a new component, if possible.
-// TODO: You'll probably need to move all these functions into the QuoteOfTheDay component.
 export function useQuoteQuery() {
   const data = useStaticQuery(graphql`
     query {
       allQuotesCsv {
         nodes {
           quote
+          author
         }
       }
       allQuoteOrderCsv {
@@ -28,60 +27,54 @@ export function useQuoteQuery() {
   return data
 }
 
-// export function shuffleQuotes(array) {
-//   // TODO: Get the current array as the number of quotes
+export function useShuffleQuotes(array) {
+  // TODO: Get the current array as the number of quotes
 
-//   const data = quoteQuery()
+  const data = useQuoteQuery()
 
-//   let currentIndex = array.length
+  const quoteNum = data.allQuotesCsv.nodes.length
 
-//   // While there remain elements to shuffle...
-//   while (currentIndex != 0) {
-//     // Pick a remaining element...
-//     let randomIndex = Math.floor(Math.random() * currentIndex)
-//     currentIndex--
+  // Generate numbers from 0 to quoteNum noninclusive
+  var array = [...Array(quoteNum).keys()]
 
-//     // And swap it with the current element.
-//     ;[array[currentIndex], array[randomIndex]] = [
-//       array[randomIndex],
-//       array[currentIndex],
-//     ]
-//   }
+  console.log("useShuffleQuotes unshuffledSequence: ", array)
 
-//   // TODO: Inscribe the new order in quoteOrder.csv
-// }
+  // While there remain elements to shuffle...
+  var currentIndex = array.length
+  while (currentIndex !== 0) {
+    // Pick a remaining element...
+    let randomIndex = Math.floor(Math.random() * currentIndex)
+    currentIndex--
 
-// export function chooseQuote() {
-//   const data = quoteQuery()
+    // And swap it with the current element.
+    ;[array[currentIndex], array[randomIndex]] = [
+      array[randomIndex],
+      array[currentIndex],
+    ]
+  }
 
-//   const today = new Date()
-//   const quoteEpoch = new Date("June 21, 2024 00:00:00")
-//   const millisDiff = today - quoteEpoch
-//   const dateDiff = Math.trunc(millisDiff / (1000 * 60 * 60 * 24))
+  console.log("useShuffleQuotes shuffledSequence: ", array)
+}
 
-//   const numQuotes = data.allQuotesCsv.nodes.length
-//   const index = dateDiff % numQuotes
+export function useChooseQuote() {
+  const data = useQuoteQuery()
 
-//   if (index == 0) shuffleQuotes()
+  const today = new Date()
+  const quoteEpoch = new Date("June 21, 2024 00:00:00")
+  const millisDiff = today - quoteEpoch
+  const dateDiff = Math.trunc(millisDiff / (1000 * 60 * 60 * 24))
 
-//   const shuffledIndex = parseInt(data.allQuoteOrderCsv.nodes[index].index)
-//   const quote = data.allQuotesCsv.nodes[shuffledIndex]
-//   return quote
-// }
+  const numQuotes = data.allQuotesCsv.nodes.length
+  const index = dateDiff % numQuotes
 
-// export function checkQuoteList() {
-//   try {
-//     const data = quoteQuery()
-//   } catch {
-//     shuffleQuotes()
-//   } finally {
-//     const quoteOrderLength = data.allQuoteOrderCsv.nodes.length
-//     const quotesLength = data.allQuotesCsv.nodes.length
+  console.log("usechoosequote index: ", index)
 
-//     if (quoteOrderLength != quotesLength) {
-//       shuffleQuotes()
-//     }
+  //   if (index == 0) shuffleQuotes()
 
-//     chooseQuote()
-//   }
-// }
+  const shuffledIndex = parseInt(data.allQuoteOrderCsv.nodes[index].index)
+  console.log("usechoosequote shuffledIndex: ", shuffledIndex)
+
+  const quote = data.allQuotesCsv.nodes[shuffledIndex]
+  console.log("usechoosequote quote: ", quote)
+  return quote
+}
