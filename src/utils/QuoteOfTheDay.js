@@ -1,17 +1,11 @@
 // src/components/QuoteOfTheDay.js
 import React from "react"
-import {
-  useQuoteQuery,
-  useChooseQuote,
-  useShuffleQuotes,
-} from "../utils/quotefuncs"
+import { useChooseQuote } from "../utils/quotefuncs"
 
 const QuoteOfTheDay = () => {
   // TODO: Finish this
 
   const quote = useChooseQuote()
-
-  useShuffleQuotes()
 
   return (
     <div className="quote-outer-div">

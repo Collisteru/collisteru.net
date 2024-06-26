@@ -1,5 +1,5 @@
-import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
+import { randSeed } from "../utils/randomseeded"
 
 // All these functions are defined as hooks so that they can use the static query
 // to get data from the GraphQL layer.
@@ -27,54 +27,46 @@ export function useQuoteQuery() {
   return data
 }
 
-export function useShuffleQuotes(array) {
-  // TODO: Get the current array as the number of quotes
-
-  const data = useQuoteQuery()
-
-  const quoteNum = data.allQuotesCsv.nodes.length
-
-  // Generate numbers from 0 to quoteNum noninclusive
-  var array = [...Array(quoteNum).keys()]
-
-  console.log("useShuffleQuotes unshuffledSequence: ", array)
-
-  // While there remain elements to shuffle...
-  var currentIndex = array.length
-  while (currentIndex !== 0) {
-    // Pick a remaining element...
-    let randomIndex = Math.floor(Math.random() * currentIndex)
-    currentIndex--
-
-    // And swap it with the current element.
-    ;[array[currentIndex], array[randomIndex]] = [
-      array[randomIndex],
-      array[currentIndex],
-    ]
-  }
-
-  console.log("useShuffleQuotes shuffledSequence: ", array)
-}
-
 export function useChooseQuote() {
   const data = useQuoteQuery()
 
   const today = new Date()
   const quoteEpoch = new Date("June 21, 2024 00:00:00")
   const millisDiff = today - quoteEpoch
-  const dateDiff = Math.trunc(millisDiff / (1000 * 60 * 60 * 24))
 
-  const numQuotes = data.allQuotesCsv.nodes.length
-  const index = dateDiff % numQuotes
+  // E is the number of days since the epoch.
+  // This tells us when the quote should change.
+  const E = Math.trunc(millisDiff / (1000 * 60 * 60 * 24))
 
-  console.log("usechoosequote index: ", index)
+  const Q = data.allQuotesCsv.nodes.length
 
-  //   if (index == 0) shuffleQuotes()
+  // Each round is a complete run-through past the quotes
+  const rounds = Math.floor(E / Q)
 
-  const shuffledIndex = parseInt(data.allQuoteOrderCsv.nodes[index].index)
-  console.log("usechoosequote shuffledIndex: ", shuffledIndex)
+  // The place is which quote we are on in the current round
+  const place = E % Q
 
-  const quote = data.allQuotesCsv.nodes[shuffledIndex]
-  console.log("usechoosequote quote: ", quote)
-  return quote
+  var quoteListCopy = data.allQuotesCsv.nodes.slice()
+  var n = quoteListCopy.length
+
+  var pickedQuote = ""
+
+  // Now, reach today's place in the current round
+  for (let i = 0; i < place + 1; i++) {
+    if (n === 0) {
+      quoteListCopy = data.allQuotesCsv.nodes.slice()
+      n = quoteListCopy.length
+    }
+    // Seed the random number generator so that the result is the same for everyone
+    var seededNum = randSeed((rounds * Q + i).toString())
+    var index = Math.floor(n * seededNum())
+    pickedQuote = quoteListCopy[index]
+
+    // Delete pickedQuote from quoteListCopy
+    quoteListCopy.splice(index, 1)
+
+    n = quoteListCopy.length
+  }
+
+  return pickedQuote
 }
