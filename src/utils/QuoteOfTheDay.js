@@ -7,15 +7,23 @@ const QuoteOfTheDay = () => {
 
   const quote = useChooseQuote()
 
+  const author = quote.author ? "- " + quote.author : ""
+
+  const source = quote.work ? "From: " + quote.work : ""
+
   return (
     <div className="quote-outer-div">
       <div id="dailyquote-container">
         <div className="side-decoration"></div>
         <div id="dailyquote-and-author">
+          <h3>Quote of The Day:</h3>
+          <hr></hr>
           <blockquote id="dailyquote">{quote.quote} </blockquote>
           <div id="dailyquoteauthor">
-            - <em>{quote.author}</em>
+            <em>{author}</em>
           </div>
+          <div style={{ height: "20px" }}> </div>
+          <div style={{ fontSize: "12px" }}>{source}</div>
         </div>
         <div className="side-decoration"></div>
       </div>

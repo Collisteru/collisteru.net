@@ -14,6 +14,7 @@ export function useQuoteQuery() {
         nodes {
           quote
           author
+          work
         }
       }
       allQuoteOrderCsv {
@@ -44,7 +45,7 @@ export function useChooseQuote() {
   const rounds = Math.floor(E / Q)
 
   // The place is which quote we are on in the current round
-  const place = E % Q
+  const place = (E % Q) + 2
 
   var quoteListCopy = data.allQuotesCsv.nodes.slice()
   var n = quoteListCopy.length
