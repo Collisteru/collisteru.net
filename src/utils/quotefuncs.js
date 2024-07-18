@@ -45,7 +45,7 @@ export function useChooseQuote() {
   const rounds = Math.floor(E / Q)
 
   // The place is which quote we are on in the current round
-  const place = (E % Q) + 2
+  const place = E % Q
 
   var quoteListCopy = data.allQuotesCsv.nodes.slice()
   var n = quoteListCopy.length
