@@ -208,8 +208,7 @@ Now a nested list:
 
 4.  Chant the following: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas diam in arcu cursus euismod quis viverra nibh. Porttitor eget dolor morbi non arcu. Scelerisque in dictum non consectetur a erat nam at. Ut sem nulla pharetra diam sit amet nisl suscipit. Dui faucibus in ornare quam viverra orci sagittis eu. Tristique senectus et netus et malesuada fames ac turpis. Sed tempus urna et pharetra pharetra massa. Fringilla est ullamcorper eget nulla. Pellentesque sit amet porttitor eget dolor morbi. Ultrices tincidunt arcu non sodales neque sodales ut etiam sit. Sagittis eu volutpat odio facilisis. Tempus quam pellentesque nec nam aliquam sem et tortor consequat.
 
-Notice again how text always lines up on 4-space indents (including
-that last line which continues item 3 above).
+Notice again how text always lines up on 4-space indents (including that last line which continues item 3 above). Some whitespace follows.
 
 <br />
 <br />

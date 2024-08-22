@@ -126,6 +126,13 @@ p {
   font-family: "Source Serif Regular";
 }
 
+/* Monospace */
+/* The !important flag is required because prism.js would otherwise override. */
+code {
+  background-color: black !important;
+  color: white !important;
+}
+
 /* All text shrinks by 25% at 600px */
 
 @media (max-width: 600px) {
@@ -208,9 +215,7 @@ blockquote p {
   }
 }
 
-/* ~~ Dailyquote Styling ~~ */
-
-/* ~~ Blockquote Styling ~~ */
+/* ~~ Blockquote Styling ~~ TODO: Get rid of this duplicate! */
 
 blockquote {
   padding: 60px 0px 40px;
@@ -411,7 +416,7 @@ p.centered {
   margin: 0;
   overflow: auto;
   border-radius: 4px;
-  background: black;
+  background: black !important;
 }
 
 @media (max-width: 600px) {
@@ -420,10 +425,19 @@ p.centered {
   }
 }
 
+pre.language-text.line-numbers {
+  background-color: black !important;
+}
+
+.line-numbers-rows {
+  background-color: black !important;
+}
+
 pre[class*="language-"] {
   padding-top: 0 !important;
   padding-bottom: 0 !important;
   overflow: auto;
+  background-color: black !important;
 }
 
 /* ~~ LISTS ~~ */
