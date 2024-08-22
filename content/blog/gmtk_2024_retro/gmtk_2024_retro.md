@@ -53,7 +53,6 @@ Your browser does not support the audio element. D: Consider switching to a newe
 </figure>
 
 
-
 # Programming:
 
 The programming, however, was a mess that I am at full liberty to exposit on. 
