@@ -1,6 +1,6 @@
 ### Now
 
-I'm in Europe as of Summer 2024. Rennes will be my home for most of the summer, but I may also go to Italy and the UK later on. I am mainly studying French and working on this website.
+I'm back in Colorado! I just finished the GMTK Gmae Jam 2024 and am preparing for my last year of college.
 
 ### Social Media
 

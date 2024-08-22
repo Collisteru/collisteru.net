@@ -1,6 +1,7 @@
 import * as React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
+import Seo from "../components/seo"
 
 export const query = graphql`
   query {
@@ -26,5 +27,7 @@ const Now = ({ data }) => {
     </Layout>
   )
 }
+
+export const Head = () => <Seo title="Collisteru: Now" />
 
 export default Now

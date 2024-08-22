@@ -2,6 +2,7 @@ import * as React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import QuoteOfTheDay from "../utils/QuoteOfTheDay"
+import Seo from "../components/seo"
 
 export const query = graphql`
   query {
