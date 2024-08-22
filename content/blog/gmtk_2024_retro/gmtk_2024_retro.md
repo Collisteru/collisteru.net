@@ -27,18 +27,30 @@ As the countdown to the GMTK 2024 game jam commenced, we projected the livestrea
 
 Inspired by the new art and story direction, we decided that a sidescrolling perspective would be easier on the artist than a top-down view. The pitch for the gameplay becomes “a stealth platformer where everything is bigger than you.” I think this idea has a lot of potential: one can imagine a game where you can’t defeat the antagonist directly so you have to rely on tricky uses of the environment to impede their progress — spilling something on them, distracting them by making something else collapse far away, etc. Hundreds of directions were open to us, but we could only take one or two paths in the 96 hours we had. We ended up with a game where you can jump and crouch in addition to running bank and forth, and where you have to hide behind cover objects to avoid Felix’s giant arm as it comes down to try to crush you. With the time we had, we developed a game where the optimal strategy is to hide behind an object until Felix falls asleep, then run and platform to the next object to hide behind while dodging a hand that’s easy to dodge. It’s not a bad start, but let’s just say it’s a good thing that our game can be beaten in five minutes. 
 
+<figure>
 <img src="dodge_felix.png">
+<figcaption>There's Ricky near the bottom. The hand on top follows Ricky and slams down to try to capture him after a constant amount of time elapses. If Ricky falls into a pit or touches the hand when it's coming down, he's sent back to the beginning of the game. This isn't too frustrating because the game is so short. One issue many players cited is difficulting telling foreground from the background. The mug here is in the foreground, but it's not too obvious.</figcaption>
+</figure>
 
 # Aesthetics:
 
 While the gameplay design of the game is a little underdeveloped and uncreative, the game’s music and especially its art were praised by almost everyone who played it. Game Jams tend to be programmer-heavy, so a lot of the games used stock art and music. We were really lucky to have dedicated people working on the aesthetic half of the game and it seriously made the final product stand out agains the thousands of games that were submitted. The limited orange-blue color palette of the art was particularly effective. I don’t have too much else to say about the art and music since I didn’t work on them, other than that they were great and I’m very grateful to Jules and Tyler!
 
+<figure>
 <img src="caught.png">
+<figcaption>Jules' art style gave the game a distinct  personality.</figcaption>
+</figure>
 
+<br />
+<br />
+
+<figure>
 <audio controls>
   <source src="/audio/rat_him_out_main_menu.mp3" type="audio/mpeg">
 Your browser does not support the audio element. D: Consider switching to a newer browser.
 </audio>
+<figcaption>This is the main menu theme, my favorite theme from the game. The office sound effects are fantastic! The tracks each communicate a different mood in the same style.</figcaption>
+</figure>
 
 
 

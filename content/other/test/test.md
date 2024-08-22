@@ -270,7 +270,14 @@ Warning: don't have certain lines (?) be too long as they will break the @media-
 
 That's an online image. Local images can be specified like so:
 
+<figure>
+
+</figure>
+
+<figure>
 <img title="collisteru antipixel" src="/collisteru_antipixel.png">
+<figcaption>This is a caption that goes along with the image! Most images you put on your blog should have captions. Contextless images are amateurish.</figcaption>
+</figure>
 
 NOTE THAT LOCAL IMAGES *MUST* BE IN THE STATIC FOLDER. You can have subfolders in the static folder to organize things, but you must specify the full path to the image in the static folder.
 
@@ -279,16 +286,16 @@ NOTE THAT LOCAL IMAGES *MUST* BE IN THE STATIC FOLDER. You can have subfolders i
 You can also embed audio like so:
 
 <audio controls>
-  <source src="/audio/main_menu.mp3" type="audio/mpeg">
+  <source src="/audio/ballad.mp3" type="audio/mpeg">
 Your browser does not support the audio element. D: Consider switching to a newer browser.
 </audio>
 
-Note that adding the audio file to the corresponding blog post folder does *not* work. The audio file *must* be in the static folder, and be referenced from that folder, in order to work.
+Note that adding the audio file to the corresponding blog post folder does *not* work. The audio file *must* be in the static folder or its children, and be referenced from that folder as above, in order to work.
 
-Figure out how to position images
+TODO: Figure out how to better position images. Figure out how to wrap text around images.
 
 Inline math equation: $E = mc^2$. Display
-math should get its own line like so:[^2]s
+math should get its own line like so:[^2]
 
 [^2]: It’s time to put up or shut up.  The great thing about legal footnotes is that if you state a fact in a brief, you’d better have a footnote to back it up.  If you try to claim something (“It is well-established that courts can sanction parties after cases have been dismissed”), you’d better cite some cases or no one is going to pay much attention.  Think of how great that would be if the same standard was imposed on other professions – especially politicians!  What if a politician couldn’t make a claim (“Subsidizing the making of science fiction movies has been shown to increase the number of children interested in math and science”) without a footnote showing the support for their claim (See The George Lucas Foundation)?
 

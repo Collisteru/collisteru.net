@@ -572,6 +572,12 @@ img {
   perspective: 1px;
 }
 
+figcaption {
+  color: var(--color-text-light);
+  font-style: italic;
+  font-size: var(--fontSize-0);
+}
+
 /** Image Styles **/
 
 /* Icons don't have borders */
