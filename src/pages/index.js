@@ -29,4 +29,6 @@ const Index = ({ data }) => {
   )
 }
 
+export const Head = () => <Seo title="Collisteru" />
+
 export default Index
