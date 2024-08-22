@@ -28,7 +28,9 @@ const BlogPostTemplate = ({
             src={imgThumbnail}
             alt="Thumbnail for the post"
           />
-          <p>{post.frontmatter.date}</p>
+          <p className="centered">
+            <em>Added to collisteru.net on {post.frontmatter.date}</em>
+          </p>
         </header>
         <section
           dangerouslySetInnerHTML={{ __html: post.html }}
@@ -46,7 +48,7 @@ const BlogPostTemplate = ({
             padding: 0,
           }}
         >
-          <li>
+          {/* <li>
             {previous && (
               <Link to={previous.fields.slug} rel="prev">
                 ← {previous.frontmatter.title}
@@ -59,7 +61,7 @@ const BlogPostTemplate = ({
                 {next.frontmatter.title} →
               </Link>
             )}
-          </li>
+          </li> */}
         </ul>
       </nav>
     </Layout>

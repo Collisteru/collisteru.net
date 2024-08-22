@@ -398,6 +398,10 @@ p {
   padding: var(--spacing-0);
 }
 
+p.centered {
+  text-align: center;
+}
+
 /* ~~CODE BLOCKS~~ */
 
 .gatsby-highlight {
