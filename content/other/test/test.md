@@ -260,9 +260,9 @@ I'll style these if I ever need to use them.
 
 Central images on their own line can be specified like so:
 
-![example image](https://mysticalpragmatics.net/images/ie-languages-evolution.png "An exemplary image")
+![example image](https://upload.wikimedia.org/wikipedia/commons/a/a3/Colosseum-2003-07-09.jpg)
 
-The above Markdown is translated into the below HTML:
+The above Markdown is translated into the below HTML (see source):
 
 <!-- <\img src="https://tutorial.math.lamar.edu/classes/de/DirectionFields_Files/image015.png" style="width: 250px"\> -->
 
@@ -273,6 +273,17 @@ That's an online image. Local images can be specified like so:
 <img title="collisteru antipixel" src="/collisteru_antipixel.png">
 
 NOTE THAT LOCAL IMAGES *MUST* BE IN THE STATIC FOLDER. You can have subfolders in the static folder to organize things, but you must specify the full path to the image in the static folder.
+
+(This is not actually true. You can put images in the same folders ad the blog markdown sources, and then source them directly, and they will render. See pythonic_purity_puzzle.md for an example.)
+
+You can also embed audio like so:
+
+<audio controls>
+  <source src="/audio/main_menu.mp3" type="audio/mpeg">
+Your browser does not support the audio element. D: Consider switching to a newer browser.
+</audio>
+
+Note that adding the audio file to the corresponding blog post folder does *not* work. The audio file *must* be in the static folder, and be referenced from that folder, in order to work.
 
 Figure out how to position images
 

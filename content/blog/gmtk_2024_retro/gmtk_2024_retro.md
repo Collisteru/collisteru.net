@@ -35,19 +35,12 @@ While the gameplay design of the game is a little underdeveloped and uncreative,
 
 <img src="caught.png">
 
-<audio controls autoplay>
-  <source src="horse.mp3" type="audio/mpeg">
-Your browser does not support the audio element. D: Consider switching to a newer browser.
-</audio>
-
-<audio controls autoplay>
-  <source src="../../../static/audio/horse.mp3" type="audio/mpeg">
+<audio controls>
+  <source src="/audio/rat_him_out_main_menu.mp3" type="audio/mpeg">
 Your browser does not support the audio element. D: Consider switching to a newer browser.
 </audio>
 
 
-
-[Main Menu music link?] [TODO: FIGURE OUT HOW TO DO THIS!]
 
 # Programming:
 
