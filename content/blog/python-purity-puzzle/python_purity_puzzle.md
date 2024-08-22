@@ -2,6 +2,8 @@
 title: Prototype I
 description: "A little python syntax puzzle."
 thumbnail: "../icons/python_purity_puzzle_icon.png"
+date: "2024-06-08T00:00:00"
+
 ---
 
 The puzzle requires knowledge of basic Python syntax. Given that, it's on the easy side

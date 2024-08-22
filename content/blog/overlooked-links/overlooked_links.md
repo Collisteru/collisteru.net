@@ -2,6 +2,8 @@
 title: Overlooked Links
 description: "Useful and obscure internet resources"
 thumbnail: "../icons/overlooked_links_icon.png"
+date: "2024-06-08T00:00:00"
+
 ---
 
 This is a list of high-quality online resources that are good to know about but hard to stumble across.
