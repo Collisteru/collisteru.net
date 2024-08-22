@@ -33,45 +33,47 @@ const Writing = ({ data, location }) => {
             console.log("post: ", post)
 
             return (
-              <tr key={post.fields.slug}>
-                <td aria-label="article headline">
-                  <article
-                    className="post-list-item"
-                    itemScope
-                    itemType="http://schema.org/Article"
-                  >
-                    <header>
-                      <h2>
-                        <Link to={post.fields.slug} itemProp="url">
-                          <span itemProp="headline">{title}</span>
-                        </Link>
-                      </h2>
-                    </header>
-                  </article>
-                </td>
-                <td aria-label="article headline">
-                  <section>
-                    <p
-                      dangerouslySetInnerHTML={{
-                        __html: post.frontmatter.description || post.excerpt,
+              <tbody>
+                <tr key={post.fields.slug}>
+                  <td aria-label="article headline">
+                    <article
+                      className="post-list-item"
+                      itemScope
+                      itemType="http://schema.org/Article"
+                    >
+                      <header>
+                        <h4>
+                          <Link to={post.fields.slug} itemProp="url">
+                            <span itemProp="headline">{title}</span>
+                          </Link>
+                        </h4>
+                      </header>
+                    </article>
+                  </td>
+                  <td aria-label="article headline">
+                    <section>
+                      <p
+                        dangerouslySetInnerHTML={{
+                          __html: post.frontmatter.description || post.excerpt,
+                        }}
+                        itemProp="description"
+                      />
+                    </section>
+                  </td>
+                  <td style={{ textAlign: "center", verticalAlign: "middle" }}>
+                    <img
+                      className="pixel"
+                      src={image}
+                      alt={title}
+                      style={{
+                        width: "150px",
+                        height: "auto",
+                        margin: 0,
                       }}
-                      itemProp="description"
                     />
-                  </section>
-                </td>
-                <td style={{ textAlign: "center", verticalAlign: "middle" }}>
-                  <img
-                    className="pixel"
-                    src={image}
-                    alt={title}
-                    style={{
-                      width: "150px",
-                      height: "auto",
-                      margin: 0,
-                    }}
-                  />
-                </td>
-              </tr>
+                  </td>
+                </tr>
+              </tbody>
             )
           })}
         </tbody>
