@@ -1,6 +1,6 @@
 ### Now
 
-I'm back in Colorado! I just finished the GMTK Gmae Jam 2024 and am preparing for my last year of college.
+I'm back in Colorado! I just finished the GMTK Game Jam 2024 and am preparing for my last year of college.
 
 ### Social Media
 
