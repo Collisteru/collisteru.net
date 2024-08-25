@@ -592,11 +592,15 @@ figcaption {
   font-size: var(--fontSize-0);
 }
 
-/** Image Styles **/
+/** Alternate Image Styles **/
 
 /* Icons don't have borders */
 .icon {
   border-width: 0px;
+}
+
+.no-border {
+  border: none !important;
 }
 
 .pixel {

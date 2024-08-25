@@ -261,17 +261,22 @@ Central images on their own line can be specified like so:
 
 ![example image](https://upload.wikimedia.org/wikipedia/commons/a/a3/Colosseum-2003-07-09.jpg)
 
-The above Markdown is translated into the below HTML (see source):
+Or like so (not the slight difference): 
 
-<!-- <\img src="https://tutorial.math.lamar.edu/classes/de/DirectionFields_Files/image015.png" style="width: 250px"\> -->
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/Colosseum-2003-07-09.jpg">
+
 
 Warning: don't have certain lines (?) be too long as they will break the @media-based layout on mobile.
 
 That's an online image. Local images can be specified like so:
 
-<figure>
+<img  title="email" src="/art/email.png"  style="width:auto; height:50px; border: none;"> 
 
-</figure>
+This is a modified style. If you want to modify the style, you *must* reference images from the static folder. I repeat again: *all assets should be referenced from the static folder.* You can use classes to style images in ways that come up again and again:
+
+<img  title="email" class="no-border" src="/art/email.png"  style="width:auto; height:30px; border: none;"> 
+
+If you do not use a special style, the image will be styled automatically as below:
 
 <figure>
 <img title="collisteru antipixel" src="/collisteru_antipixel.png">

@@ -33,5 +33,6 @@ Keep in mind that none of these accounts are checked regularly. Listed in order 
 
 Listed in order of preference
 
-- Email: collisteru@gmail.com
+- Email:     <img  title="email" src="/art/email.png"  style="width:auto; height:20px; border: none;"> 
+
 - Discord: collisteru (But I'm unlikely to respond to DMs unless I know you already.)
