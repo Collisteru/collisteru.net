@@ -117,7 +117,7 @@ What unites France is its sense of cultural distinction. It is the cultural figu
 
 ### The Food
 
-Knowing as a factoid that the French are culinary experts is one thing, but actually sitting down on a French table, enjoying three or so courses, and experiencing[ Revise] the amazing taste, flavor, and presentation of each dish is another thing entirely. Among the many cultural achievements of France, cuisine sits the highest. The first dish I had in Bretagne, *la galette*, which is a sort of thin pancake with all sorts of yummy cheeses and meats stuffed inside. The portions are reasonably-size, which is a good respite for someone used to American food.
+Knowing as a factoid that the French are culinary experts is one thing, but actually sitting down on a French table, enjoying three or so courses, and experiencing the amazing taste, flavor, and presentation of each dish is another thing entirely. Among the many cultural achievements of France, cuisine sits the highest. The first dish I had in Bretagne, *la galette*, which is a sort of thin pancake with all sorts of yummy cheeses and meats stuffed inside. The portions are reasonably-size, which is a good respite for someone used to American food.
 
 Europeans enjoy drinking sparkling water, and this is a habit every American should take up as it is much healthier than soda. 
 
@@ -390,7 +390,7 @@ The castle of Saumur is straight out of a fairytale book. Incredibly well-made a
 There are signatures from the past two centuries scrawled across the walls of the Château de Saumur. Many of them are dated and the dates go back well into the 19th century.
 
 <figure>
-<img src="saumur_viewu.jpg">
+<img src="saumur_view.jpg">
 <figcaption>Saumur across the Loire, from the South side.</figcaption>
 </figure>
 
@@ -401,7 +401,7 @@ There are signatures from the past two centuries scrawled across the walls of th
 
 <figure>
 <img src="saumur_chateau_high.jpg">
-<figcaption>From the tower of the Château de Saumur. The plumes of steamin the far distance are from nuclear cooling towers.</figcaption>
+<figcaption>From the tower of the Château de Saumur. The plumes of steam in the far distance are from nuclear cooling towers.</figcaption>
 </figure>
 
 I really can’t recommend Saumur enough. It represents the height of the French aesthetic of coziness plus grandeur.
@@ -443,7 +443,7 @@ Leonardo da Vinci spent the latter part of his life near the Château d’Ambois
 
 <figure>
 <img src="amboise_from_chateau.jpg">
-<figcaption>The view of Amboise from the Château d'Amboise</figcaption>
+<figcaption>The view of Amboise from the Château</figcaption>
 </figure>
 
 <a id="paris"> </a>
@@ -466,7 +466,9 @@ I won’t bore you with the typical recommendations of things to do in Paris. He
 
 Southern France has a completely different climate from Northern France, as it is far hotter and drier there, and more similar to the rocky, sea-lapped shores of Italy. I didn’t spend too much time in Marseilles, but the castle along the rocky shore is certainly picturesque.
 
-[Photo of Marseilles]*
+<figure>
+<img src="marseilles.jpg">
+</figure>
 
 <a id="culture-of-international-hostel"> </a>
 
@@ -480,7 +482,10 @@ Imagine an American frat house with more modernist decorations and political slo
 
 English is the first language of service, but the receptionists at the hostels I stayed at in Italy could also speak Italian and Spanish. There’s a strong emphasis on American ways of socializing --- one hostel even had a beer pong night. Another served an all-American breakfast without a touch of Italian influence. In these spaces American culture is removed, transplanted, and mixed freely with the cultures of the other hostel yuppies --- but only in a deracinated way, and in a very postmodern context. The message is: “we might have come from the edges of the globe, but here that’s all just trivia.” 
 
-[Picture of Hostel in Milan] (Hostel table)*
+<figure>
+<img src="hostel_table.jpg">
+<figcaption>Table in a Milan hostel</figcaption>
+</figure>
 
 <a id="italy"> </a>
 
@@ -499,9 +504,15 @@ The Duomo of Milan is absolutely recommended; it’s the third largest church in
 
 Another cool thing about the Duomo is that you can go on the roof. For a small extra fee and a little bit of stair-climbing, you can stare at the skyline of Milan, which includes in the far distance the skyscrapers of the new quarter.  There’s no less to look at in terms of intricate carvings and artistry on the roof than there is in the interior.
 
-[Picture of the Duomo]*
+<figure>
+<img src="duomo_front.jpg">
+<figcaption>The Duomo</figcaption>
+</figure>
 
-[Duomo Roof]*
+<figure>
+<img src="atop_duomo.jpg">
+<figcaption>The roof of the Duomo</figcaption>
+</figure>
 
 <a id="florence"> </a>
 
@@ -519,6 +530,11 @@ I do not recommend getting an AirB&B near the Termini Train Station, no matter h
 
 I saw the Colosseum and the Roman Forum. They’re both cool.
 
+<figure>
+<img src="roman_forum.jpg">
+<figcaption>Romans pass ancient ruins every day on their way to get groceries.</figcaption>
+</figure>
+
 <a id="the-vatican"> </a>
 
 ####  The Vatican Museum
@@ -532,7 +548,7 @@ Nearly all the statues are marble Roman copies of Greek originals. The originals
 
 Greco-Roman painters were incredibly skilled in color and line. In many cases the art they made two thousand years is better than what we make today. Once you see these, it becomes easy to understand why European, Islamic, and Indian art was influenced for so any centuries by Greco-Roman art. Maybe we still haven’t surpassed their fierce belief in art as a way to influence and uplift society and daily life.
 
-[Picture of Vatican Gardens]
+
 
 <a id="naples"> </a>
 
@@ -544,7 +560,10 @@ I went to Pompeii. It’s incredibly well-preserved. Not only is nearly all the 
 
 Another striking thing is the size of Pompeii. It’s surprisingly large. Its size surpasses that of the old towns of many modern cities. Unlike those medieval old towns, the streets are straight and narrow. This helped with interior transport and kept everybody cool. Extensive archaeological digs have been led at Pompeii, but much work remains to be done.
 
-[Picture of Pompeii]*
+<figure>
+<img src="pompeii.jpg">
+<figcaption>A street in Pompeii</figcaption>
+</figure>
 
 <a id="the-louvre"> </a>
 
@@ -563,8 +582,9 @@ I recommend the audioguide, which are the coolest I’ve ever seen. It’s a Nin
 Remember that **tickets to the Louvre must be booked well in advance — at least two months for good tickets, that is morning tickets**. You can easily spend multiple entire days in the Louvre.
 tickets
 
-[Pictures of the Louvre --- from the Café]*
-
+<figure>
+<img src="louvre_from_cafe.jpg">
+</figure>
 
 <a id="the-ecstatic-return"> </a>
 
@@ -572,7 +592,10 @@ tickets
 
 After the touchdown in Boston, I wandered the old town for eight hours in a state of bliss. Everything is so big! Everything is so new and clean, it’s like Disneyland! American English! I was like a microbe that had been transferred to a cold petri dish with little nutrients, made to adapt, and then returned to its original home with all its abundant warmth and nutrients. I’m not quite sure if this was reverse culture shock, or if I was just tired and very happy to be home.
 
-[American Flag Picture]
+<figure>
+<img src="bos_flag.jpg">
+<figcaption>The first view of America I saw in the Boston Airport</figcaption>
+</figure>
 
 <a id="conclusion"> </a>
 
