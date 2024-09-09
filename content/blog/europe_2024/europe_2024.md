@@ -2,7 +2,7 @@
 title: France and Italy 2024
 description: "A summer in Europe"
 thumbnail: "../icons/france_italy_2024_icon.png"
-date: "2024-09-08T16:41:00.121Z"
+date: "2024-09-09"
 ---
 
 # Introduction
