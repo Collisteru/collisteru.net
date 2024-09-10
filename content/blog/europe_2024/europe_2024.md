@@ -292,7 +292,7 @@ France’s cultural greatness comes with a severe contradiction. Passing the res
 
 While French high culture is one of the best in the world, there is almost no native pop culture. France, along with the rest of Europe, imports almost all pop culture from the USA and Japan. The American dog wags the European tail in more ways than this, though. The French keep tabs on American politics, and newspapers talking about the upcoming American election are widely sold. The French know about, and sometimes obsess over, American actors, photographers, writers, politicians, and public figures. How many contemporary French public figures can you name?
 
-This shift happened at the end of World War II as the USA emerged to rebuild France on new foundations with its Marshall Plane. The French  in their gratitude developed a sort of cultural obsession with the USA. New communications technologies, led by America, have exacerbated this process.
+This shift happened at the end of World War II as the USA emerged to rebuild France on new foundations with its [Marshall Plan](https://en.wikipedia.org/wiki/Marshall_Plan). The French  in their gratitude developed a sort of cultural obsession with the USA. New communications technologies, led by America, have exacerbated this process.
 
 American influence has not just swept through Europe and the Anglophone countries. Asia, the Americas, and Africa are all affected. This isn’t all bad: it could make countries more open to entrepreneurship, more dedicated to citizen’s equality, and more interested in freedom. An international language expands communication for everyone and makes international cooperation easier. However, we Americans also export our cultural diseases like fast food, excessive advertisements, and obsessing over consumption.
 
@@ -455,7 +455,7 @@ I won’t bore you with the typical recommendations of things to do in Paris. He
 
 * Les Invalides ← Napoleon’s lavish tomb is here, and there’s a good museum of French military history.
 * Le Musée de Cluny ←- The museum of the Middle Ages in Paris. It houses the famous Lady and the Unicorn tapestry, which is well worth the visit.
- *Muséum National d’Histoire Naturelle ← It’s in Le Jardin des Plantes. The largest collection of taxidermy I’ve ever seen, largely collected during the colonial. All signs and descriptions are in French.
+* Muséum National d’Histoire Naturelle ← It’s in Le Jardin des Plantes. The largest collection of taxidermy I’ve ever seen, largely collected during France's colonial epoch. All signs and descriptions are in French.
 * La Grand Mosquée de Paris ← The first Mosque in Paris, built after the First World War to commemorate Muslim combatants for France. It’s a fantastic example of Islamic Architecture and open to tourists.
 * La Défense ← The modernist district of Paris, it has many skyscrapers.
 * La Bibliothèque Nationale de France ← Along with La Défense, it is another of the Grands Travaux of François Mitterand. It’s a monumental modernist library, with four great L-shaped towers that surround a garden.
