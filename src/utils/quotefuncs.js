@@ -17,11 +17,6 @@ export function useQuoteQuery() {
           work
         }
       }
-      allQuoteOrderCsv {
-        nodes {
-          index
-        }
-      }
     }
   `)
 
