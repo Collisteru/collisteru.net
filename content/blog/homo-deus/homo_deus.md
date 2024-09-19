@@ -3,7 +3,7 @@ title: Book Review - Homo Deus
 description: "Yuval Noah Harari tries to predict the future."
 thumbnail: "../icons/homo_deus_icon.png"
 date: "2024-06-08T00:00:00"
-
+last_updated: "2024-06-08T00:00:00"
 ---
 
 _Homo Deus_ is part two of Yuval Noah Harari’s humble quest to explain all of history. In  _Sapiens,_ he created a model of how humans rose to become Earth’s apex predator and most powerful ecological force. In _Homo Deus,_ he refines this model and makes predictions about culture in a transhuman future.

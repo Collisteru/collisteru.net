@@ -2,7 +2,8 @@
 title: GMTK Game Jam 2024 Retrospective
 description: "Lessons from my first game jam"
 thumbnail: "../icons/rat_him_out_retro_icon_32x.png"
-date: "2024-08-22T10:32:00.121Z"
+date: "2024-08-22"
+last_updated: "2024-08-22" 
 ---
 
 Many friends and I developed *Rat Him Out!* at the GMTK 2024 Game Jam!

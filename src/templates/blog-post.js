@@ -1,5 +1,5 @@
 import * as React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -10,6 +10,16 @@ const BlogPostTemplate = ({
 }) => {
   const siteTitle = site.siteMetadata?.title || `Title`
   const imgThumbnail = "../" + post.frontmatter.thumbnail
+
+  const uploadDate = <em>Added to collisteru.net on {post.frontmatter.date}</em>
+
+  var updateDate
+
+  if (post.frontmatter.last_updated !== post.frontmatter.date) {
+    updateDate = <em> Last updated on {post.frontmatter.last_updated}</em>
+  } else {
+    updateDate = ""
+  }
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -28,9 +38,8 @@ const BlogPostTemplate = ({
             src={imgThumbnail}
             alt="Thumbnail for the post"
           />
-          <p className="centered">
-            <em>Added to collisteru.net on {post.frontmatter.date}</em>
-          </p>
+          <p className="centered">{uploadDate}</p>
+          <p className="centered">{updateDate}</p>
         </header>
         <section
           dangerouslySetInnerHTML={{ __html: post.html }}
@@ -96,6 +105,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
+        last_updated(formatString: "MMMM DD, YYYY")
         description
         thumbnail
       }

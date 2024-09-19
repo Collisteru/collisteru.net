@@ -3,7 +3,7 @@ title: Original Thought
 description: It doesn't exist
 thumbnail: "../icons/original_thought_icon_32x.png"
 date: "2024-06-08T00:00:00"
-
+last_updated: "2024-06-08T00:00:00"
 ---
 
 Original thought does not exist. The mind generates ideas by digesting what it consumes and experiences. However, while all ideas have precedents, some modify their precedents more than others. Originality ranges from blatant plagiarism to ideas that rework their sources so much they appear novel. For demonstration, let’s fill in the space between these two ends. The examples will focus on textual media, though this applies everywhere.
