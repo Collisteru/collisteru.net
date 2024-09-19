@@ -94,13 +94,6 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-transformer-csv`,
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/static/data`,
-        name: `data`,
-      },
-    },
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-feed`,
