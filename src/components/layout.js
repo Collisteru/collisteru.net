@@ -84,12 +84,14 @@ const Layout = ({ children, quote }) => {
     <div style={{ textAlign: "center" }}>
       <div>
         {" "}
-        <img
-          style={{ width: "300px" }}
-          className="pixel"
-          src="/art/ccat_collisteru_final.gif"
-          alt="sleeping_cat"
-        ></img>
+        <a class="badge" href="/">
+          <img
+            style={{ width: "300px" }}
+            className="pixel"
+            src="/art/ccat_collisteru_final.gif"
+            alt="sleeping_cat"
+          ></img>
+        </a>
       </div>
       © {romanize(new Date().getFullYear())}
     </div>
