@@ -621,6 +621,17 @@ figcaption {
   }
 }
 
+.cat_pixel {
+  width: 300px;
+}
+
+@media (max-width: 800px) {
+  .cat_pixel {
+    width: 150px;
+    display: none;
+  }
+}
+
 .badge {
   border-width: 0px;
   margin: 3px;
@@ -764,7 +775,7 @@ figcaption {
 .global-footer {
   background-color: var(--light-blue);
   color: var(--white);
-  height: 150px;
+  height: 140px;
   position: absolute;
   bottom: 0;
   left: 0;

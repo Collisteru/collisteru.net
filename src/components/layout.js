@@ -86,8 +86,7 @@ const Layout = ({ children, quote }) => {
         {" "}
         <a class="badge" href="/">
           <img
-            style={{ width: "300px" }}
-            className="pixel"
+            className="cat_pixel pixel"
             src="/art/ccat_collisteru_final.gif"
             alt="sleeping_cat"
           ></img>
