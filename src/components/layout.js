@@ -82,6 +82,15 @@ const Layout = ({ children, quote }) => {
   // Style the below div so that text is centered
   let footer = (
     <div style={{ textAlign: "center" }}>
+      <div>
+        {" "}
+        <img
+          style={{ width: "300px" }}
+          className="pixel"
+          src="/art/ccat_collisteru_final.gif"
+          alt="sleeping_cat"
+        ></img>
+      </div>
       © {romanize(new Date().getFullYear())}
     </div>
   )

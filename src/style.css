@@ -764,7 +764,7 @@ figcaption {
 .global-footer {
   background-color: var(--light-blue);
   color: var(--white);
-  height: 100px;
+  height: 150px;
   position: absolute;
   bottom: 0;
   left: 0;
