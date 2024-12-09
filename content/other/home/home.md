@@ -2,8 +2,6 @@
 
 # Collisteru
 
-### Hi There!
-
 Welcome to Collisteru's little blog and portfolio site! Please enjoy your stay.
 
 - **I'm a computer programmer, writer, and general creator.**
@@ -11,47 +9,6 @@ Welcome to Collisteru's little blog and portfolio site! Please enjoy your stay.
 - I work as an AI researcher in industry. **I think AI is the most important technology of the century** so far and am interested in making it safe and effective.
 
 Right now this website is mostly dedicated to hosting writing and projects. You can read in [Writing](/writing) and [Software](/software).
-
-## Interests:
-
-This website is very much under construction, but will be added to over time as I get the chance to write about more interesting topics and program more. Here are some topics you'll see on this website soon:
-
-- STEM
-    - Math
-        - Analysis
-        - Applied Math
-        - Complex Numbers
-    - Physics
-    - CS
-        - AI
-        - Functional Programming
-    - Theory of Computation
-- Travel
-- Humanities
-    - Art
-    - History
-        - Europe
-        - East Asia
-        - United States
-    - Linguistics
-        - French
-        - Latin
-        - English
-
-## The Site
-
-The domain is managed by Squarespace, the site itself is hosted by Netlify, it's built largely in Gatsby, and the content is written in Markdown. KaTeX provides LaTeX rendering, and PrismJS provides code highlighting.
-
-The design is inspired in part by late 90s / early 2000s web design and in part by 19th century typesetting. 
-
-Design and inspiration-wise, the three biggest influences on this site were [Gwern Branwen](https://www.gwern.net/), [betaveros](https://beta.vero.site/), and [Mark Rosenfelder](https://zompist.com/). I also regularly take inspiration from the [LessWrong](https://www.lesswrong.com/) and [Slate Star Codex](https://slatestarcodex.com/) communities.
-
-You can access the code [here](https://github.com/Collisteru/collisteru.net).
-
-
-## Contact
-
-You can get in contact with me [here](../about). I'm always happy to hear from people who share my interests or who want to work on projects together. I'm also happy to help with any questions you have about the content on this site.
 
 
 ---
