@@ -44,7 +44,11 @@ Is a link broken? [Let me know!](https://forms.gle/jFc9q2TjY6JfuW3A7)
 
 ## Class Notes and MOOCs
 
-- [MIT OCW](https://ocw.mit.edu/index.html) – Class notes from MIT
+- [MIT OCW](https://ocw.mit.edu/index.html) – Class notes from MIT'
+
+## Charts and Diagrams
+
+- [Diagram Repository](https://docs.google.com/document/d/15l7MaHwJhz6lsz7qsTabNrI2t7rs4A54SRuAYBh0k0M/edit?usp=sharing) - Repository of diagrams a friend of mine made
 
 ## Journals
 
