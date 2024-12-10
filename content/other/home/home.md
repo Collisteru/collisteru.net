@@ -29,6 +29,8 @@ Right now this website is mostly dedicated to hosting writing and projects. You 
     <a class="badge" ><img class="badge" src="/badges/american_antipixel.gif"></a>
     <a class="badge" ><img class="badge" src="/badges/coffeepower.png"></a>
 </div>
-<p><script type="text/javascript" src="//counter.websiteout.com/js/19/7/0/1"></script>
+
+<!-- This web counter does not seem to work. -->
+<!-- <p><script type="text/javascript" src="//counter.websiteout.com/js/19/7/0/1"></script> -->
 
 <br/>
