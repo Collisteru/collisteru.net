@@ -10,6 +10,10 @@ Welcome to Collisteru's little blog and portfolio site! Please enjoy your stay.
 
 Right now this website is mostly dedicated to hosting writing and projects. You can read in [Writing](/writing) and [Software](/software).
 
+## Contact
+
+You can get in contact with me [here](../about). I'm always happy to hear from people who share my interests or who want to work on projects together. I'm also happy to help with any questions you have about the content on this site.
+
 
 ---
 <!-- A flexbox all in a row, where all the images have a height of ten pixels. -->

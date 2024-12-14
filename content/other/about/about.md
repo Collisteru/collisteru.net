@@ -1,16 +1,8 @@
 
 ### Now
 
-I'm back in Colorado! I just finished the GMTK Game Jam 2024 and am preparing for my last year of college.
+Finishing up the Fall 2024 semester and working on my senior thesis. See the proposal in the Writing section.
 
-## Contact
-
-You can get in contact with me [here](../about). I'm always happy to hear from people who share my interests or who want to work on projects together. I'm also happy to help with any questions you have about the content on this site.
-
-
-### Social Media
-
-Keep in mind that none of these accounts are checked regularly. Listed in order of how often they are used.
 
 ## Interests:
 
@@ -48,6 +40,11 @@ Design and inspiration-wise, the three biggest influences on this site were [Gwe
 
 You can access the code [here](https://github.com/Collisteru/collisteru.net).
 
+
+
+### Social Media
+
+Keep in mind that none of these accounts are checked regularly. Listed in order of how often they are used.
 
 
 <div style="display: flex; justify-content: space-around;">
