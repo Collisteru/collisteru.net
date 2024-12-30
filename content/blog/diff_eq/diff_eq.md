@@ -3,7 +3,7 @@ title: Notes on Differential Equations
 description: Mostly summaries of solution methods
 thumbnail: "../icons/diff_eqs_icon.png"
 date: "2024-06-08T00:00:00"
-last_updated: "2024-06-08T00:00:00"
+last_updated: "2024-12-29T00:00:00"
 ---
 
 Differential equations describe relationships between functions and their derivatives. We solve them by finding the set of functions that make the relationship true. Differential equations are important to us, as engineers and applied mathematicians, because they appear over and over again in science but are difficult to solve. In fact, <a href="https://math.stackexchange.com/questions/https://math.stackexchange.com/questions/3782499/is-there-a-reason-it-is-so-rare-we-can-solve-differential-equations3782499/is-there-a-reason-it-is-so-rare-we-can-solve-differential-equations">the vast majority of differential equations are not solvable analytically</a>. This class covers the tricks we use for the ones that are.
