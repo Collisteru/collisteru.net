@@ -4,6 +4,10 @@ description: "A better test post."
 thumbnail: "../swordmountain.png"
 ---
 
+Text (fully justified).
+
+<center> Centered text. <center>
+
 Paragraphs are separated by a blank line.
 
 2nd paragraph. _Italic_, **bold**, `monospace`, and <u> underlined</u>. Itemized lists

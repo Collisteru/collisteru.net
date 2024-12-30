@@ -286,7 +286,7 @@ The general formula:
 
  
 $$
-y(x) = y_0 + \int_(x_0)^x f(t, y(t)) dt
+y(x) = y_0 + \int(x_0)^x f(t, y(t)) dt
 $$
  
 Your initial guess for $y(x)$ can be as bad as you want it to be, it can even be a constant. Plug it into the integral as $y(x)$ and the Picard method will produce something better. If your ODE is of a certain form, for example a linear ODE, successive iterations of Picard’s Method will actually produce a polynomial which could end up being the Taylor series expansion of the analytic solution.
