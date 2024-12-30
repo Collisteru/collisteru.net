@@ -1,5 +1,6 @@
 import * as React from "react"
 import { Link } from "gatsby"
+import Head from "../components/head"
 
 function romanize(num) {
   if (isNaN(num)) return NaN
@@ -49,8 +50,14 @@ function romanize(num) {
 const Layout = ({ children, quote }) => {
   const rootPath = `${__PATH_PREFIX__}/`
 
+  let analytics = <Head></Head>
+
   let header = (
     <div className="header-container">
+      <script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-5LGVYN17NL"
+      ></script>
       <h1 className="main-heading">
         <Link to="/">Collisteru</Link>
       </h1>
@@ -98,6 +105,7 @@ const Layout = ({ children, quote }) => {
 
   return (
     <div className="global-wrapper">
+      {analytics}
       <header className="global-header">{header}</header>
       <main id="content">{children}</main>
       {quote}
