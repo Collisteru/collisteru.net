@@ -35,13 +35,19 @@ const Seo = ({ description, title, children }) => {
       <meta property="og:title" content={title} />
       <meta property="og:description" content={metaDescription} />
       <meta property="og:type" content="website" />
-      <meta name="twitter:card" content="summary" />
-      <meta
-        name="twitter:creator"
-        content={site.siteMetadata?.social?.twitter || ``}
-      />
-      <meta name="twitter:title" content={title} />
-      <meta name="twitter:description" content={metaDescription} />
+      <script
+        id="gAnalyticsScript-1"
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-5LGVYN17NL"
+      ></script>
+      <script id="gAnalyticsScript-2">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-5LGVYN17NL');
+        `}
+      </script>
       {children}
     </>
   )
