@@ -8,7 +8,7 @@ last_updated: "2025-01-25T00:00:00"
 
 Have you ever made a list of everything you do on your phone? Not just a list of apps, but of everything you do with every app you use. If you're like me, that list has dozens of items, including many daily activities. Think of how different your life would be without those things.
 
-Your list is a map of your life in the digital world. Most people in wealthy countries today lead two lives: one physical, one digital. These lives need not have much to do with each other, many people prize their digital life the most. I was one such person. Like many Zoomers, I grew up preferring my digital life. It was my real life in a sense. The physical world was merely a medium of access. This improved as I got older, but it's the fundamental stance I'm coming from.
+Your list is a map of your life in the digital world. Most people in wealthy countries today lead two lives: one physical, one digital. These lives need not have much to do with each other, many people prize their digital life the most. I was one such person. Like many Zoomers, I grew up preferring my digital life. It was my real life in a sense. The physical world was merely a medium of access. This improved as I got older, but it's still the fundamental stance I'm coming from.
 
 At the start of 2025, I still felt disturbed by how much I was in thrall to screens. I sought freedom. I wanted to stop living a parallel life and exist for once fully present in the real world-- if only to see what it's like.
 
@@ -20,7 +20,7 @@ I resolved to live by the following rule:
 
 *"I will not use any technology with a display screen"*
 
-This rule is strict. It bans computers, including embedded computers, so no drivign. Cell phone use is out of the question. This all sounds nice and dandy as far as it goes, but as a CS student it's unclear how I would be able to work if I followed this rule. A total purse is impossible. Challenge failed, right? Not quite yet. I believe it's much better to walk a few strong steps along a good road than to never start because the end is far away. Just looking at the scenery along a noble path is noble. The rule became: "I will seek out and prefer screen less solutions wherever they improve my life."
+This rule is strict. It bans computers, including embedded computers, so no drivign. Cell phone use is out of the question. This all sounds nice and dandy as far as it goes, but as a CS student it's unclear how I would be able to work if I followed this rule. A total purge is impossible. Challenge failed, right? Not quite yet. I believe it's much better to walk a few strong steps along a good road than to never start because the end is far away. Just looking at the scenery along a noble path is noble. The rule became: "I will seek out and prefer screen less solutions wherever they improve my life."
 
 This seems too wishy-washy at first glance, but it produced strong results. I came to see going analog as more of a direction to aspire to rather than a constraint. I abandoned my cell phone, I read only physical books and newspaper, and I socialized almost exclusively in person. These were only the starting changes. During this period. I learned enough about screenless living to write a series.
 
