@@ -31,7 +31,7 @@ const BlogPostTemplate = ({
         <header>
           <h1 itemProp="headline">{post.frontmatter.title}</h1>
           <img
-            className="pixel"
+            // className="pixel"
             style={{
               width: "150px",
             }}
