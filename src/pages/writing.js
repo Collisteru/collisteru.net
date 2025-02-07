@@ -61,7 +61,7 @@ const Writing = ({ data, location }) => {
                 </td>
                 <td style={{ textAlign: "center", verticalAlign: "middle" }}>
                   <img
-                    className="pixel"
+                    // className="pixel"
                     src={image}
                     alt={title}
                     style={{
