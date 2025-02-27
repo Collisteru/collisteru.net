@@ -26,6 +26,8 @@ You can get in contact with me [here](../about). I'm always happy to hear from p
     <a class="badge" href="https://dimden.dev/"><img class="badge" src="/badges/dimden_antipixel.gif" ></a>
     <a class="badge" href="https://www.ashido.com/"><img class="badge" src="/badges/zarla_antipixel.gif"></a>
     <a class="badge" href="https://en.wikipedia.org/wiki/Help:Introduction"><img class="badge" src="/badges/wikipedia_antipixel.png"></a>
+    <a class="badge" href="https://www.nofna.com/"><img class="badge" src="/badges/nofna.gif"></a>
+
 </div>
 <div style="display: flex; justify-content: center; align-item: center;">
     <a class="badge" href="https://ardalambion.net/"><img class="badge" src="/badges/one_ring_ardalambion.gif"></a>
