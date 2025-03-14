@@ -3,7 +3,7 @@ title: Natural Intelligence is Overhyped
 description: "We cannot create beings strong enough to replace us."
 thumbnail: "../icons/ni_overhyped.png"
 date: "2024-12-29T00:00:00"
-last_updated: "2024-01-02T00:00:00"
+last_updated: "2025-01-02T00:00:00"
 ---
 
 <hr>
