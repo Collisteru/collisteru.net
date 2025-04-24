@@ -319,11 +319,11 @@ But let’s say our hypothetical 21st-century Bishop made some well-timed Bitcoi
 
 Sometimes, I even wonder if the castle will last much longer. The family has been lucky so far, but it only takes one death or injury to result in a shutdown. When I mentioned this possibility to Dan, he had this to say: 
 
-“Ultimately, we don’t have any game plan. … Your question is the same one people have asked since we started. There’s always somebody wanting to plant the idea that it’s not going to work. That they’re going to take it from you. 
+_“Ultimately, we don’t have any game plan. … Your question is the same one people have asked since we started. There’s always somebody wanting to plant the idea that it’s not going to work. That they’re going to take it from you._
 
-You just can’t let the fear of the future stop you from doing what you want to do. The thing you gotta be careful of is: Is it for the right reason? I believe that as long as I’m up there, not trying to get rich, not trying to steal from everybody, giving it away, than the God I and my Dad believed in will do what he needs to keep it going. I also believe that if it’s not happening anymore… that was God’s will as well. 
+_You just can’t let the fear of the future stop you from doing what you want to do. The thing you gotta be careful of is: Is it for the right reason? I believe that as long as I’m up there, not trying to get rich, not trying to steal from everybody, giving it away, than the God I and my Dad believed in will do what he needs to keep it going. I also believe that if it’s not happening anymore… that was God’s will as well._
 
-I will go when God tells me I’m done here. I live by that because I watched it work for him. That there were years of no one managing to stop it is a pretty good testament of how long you can get away with doing the right thing.”
+_I will go when God tells me I’m done here. I live by that because I watched it work for him. That there were years of no one managing to stop it is a pretty good testament of how long you can get away with doing the right thing.”_
 
 Dan tells us here what the castle means. The castle might not teach us much about architecture or environmental engineering, but it reminds us to let hope and not fear guide our lives. It reminds us that the true munchkin doesn’t always lay out plans like railroad tracks but digs, digs, digs through the mountain of destiny in a frenzy of joyful doing. 
 
