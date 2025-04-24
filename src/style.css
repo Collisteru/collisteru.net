@@ -90,7 +90,7 @@ html {
 
 body {
   font-family: var(--font-body);
-  font-size: var(--fontSize-1);
+  font-size: var(--fontSize-2);
   color: var(--color-text);
   text-align: center;
   margin: 0;
@@ -202,20 +202,7 @@ blockquote::after {
   width: 200px;
 }
 
-blockquote p {
-  color: rgba(30, 30, 0);
-  font-size: var(--fontSize-neg1);
-  margin-bottom: var(--spacing-0);
-  color: var(--color-text-light);
-}
-
-@media (max-width: 600px) {
-  blockquote p {
-    font-size: 0.5205em;
-  }
-}
-
-/* ~~ Blockquote Styling ~~ TODO: Get rid of this duplicate! */
+/* ~~ Blockquote Styling */
 
 blockquote {
   padding: 60px 0px 40px;
@@ -223,7 +210,7 @@ blockquote {
 
 blockquote p {
   color: rgba(30, 30, 0);
-  font-size: var(--fontSize-neg1);
+  font-size: var(--fontSize-2);
   margin-bottom: var(--spacing-0);
   color: var(--color-text-light);
 }
@@ -297,7 +284,7 @@ blockquote#dailyquote::after {
 }
 
 cite {
-  font-size: var(--fontSize-0);
+  font-size: var(--fontSize-2);
   font-family: "Source Serif Regular";
   font-weight: bold;
   color: rgba(30, 30, 0);

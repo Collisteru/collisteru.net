@@ -33,7 +33,7 @@ const BlogPostTemplate = ({
           <img
             // className="pixel"
             style={{
-              width: "150px",
+              width: "300px",
             }}
             src={imgThumbnail}
             alt="Thumbnail for the post"
