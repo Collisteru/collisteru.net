@@ -20,6 +20,8 @@ look like:
 Note that --- not considering the asterisk --- the actual text
 content starts at 4-columns in.
 
+<span style="color:blue">Colored text exists.</span>
+
 > Block quotes are
 > written like so.
 >
