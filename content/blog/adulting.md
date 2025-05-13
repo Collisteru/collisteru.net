@@ -7,8 +7,6 @@ last_updated: "2025-05-12T00:00:00"
 ---
 
 
-# Adulthood is Awesome, Actually
-
 It’s been a common meme for a while now, especially among millenials, that adulthood is suffering. [^bignote].
 
 [^bignote]: Some examples of this idea: https://thoughtcatalog.com/january-nelson/2019/02/50-ways-adulting-sucks-and-why-you-should-enjoy-your-youth-while-it-lasts/ 
