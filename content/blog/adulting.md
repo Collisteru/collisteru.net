@@ -7,9 +7,9 @@ last_updated: "2025-05-12T00:00:00"
 ---
 
 
-It’s been a common meme for a while now, especially among millenials, that adulthood is suffering. [^bignote].
+It’s been a common meme for a while now, especially among millenials, that adulthood is suffering. [^1].
 
-[^bignote]: Some examples of this idea: https://thoughtcatalog.com/january-nelson/2019/02/50-ways-adulting-sucks-and-why-you-should-enjoy-your-youth-while-it-lasts/ 
+[^1]: Some examples of this idea: https://thoughtcatalog.com/january-nelson/2019/02/50-ways-adulting-sucks-and-why-you-should-enjoy-your-youth-while-it-lasts/ 
 
 	https://www.reddit.com/r/Advice/comments/bou2w1/i_dont_like_being_an_adult/ 
 	
