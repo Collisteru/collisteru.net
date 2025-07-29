@@ -79,6 +79,26 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
   }
 }
 
+/* Providing polyfills for certian packages that can't be used in the browser */
+exports.onCreateWebpackConfig = ({ actions }) => {
+  actions.setWebpackConfig({
+    resolve: {
+      fallback: {
+        crypto: require.resolve("crypto-browserify"),
+        http: require.resolve("stream-http"),
+        https: require.resolve("https-browserify"),
+        url: require.resolve("url/"),
+        querystring: require.resolve("querystring-es3"),
+        assert: require.resolve("assert/"),
+        // If `fs`, `net`, or `tls` are not needed in the browser, set them to false
+        fs: false,
+        net: false,
+        tls: false,
+      },
+    },
+  })
+}
+
 /**
  * @type {import('gatsby').GatsbyNode['createSchemaCustomization']}
  */
