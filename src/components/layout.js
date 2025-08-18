@@ -91,7 +91,7 @@ const Layout = ({ children, quote }) => {
     <div style={{ textAlign: "center" }}>
       <div>
         {" "}
-        <a class="badge" href="/">
+        <a className="badge" href="/">
           <img
             className="cat_pixel pixel"
             src="/art/ccat_collisteru_final.gif"

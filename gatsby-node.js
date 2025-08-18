@@ -4,11 +4,17 @@
  * See: https://www.gatsbyjs.com/docs/reference/config-files/gatsby-node/
  */
 
+require("dotenv").config()
 const path = require(`path`)
+const axios = require(`axios`)
 const { createFilePath } = require(`gatsby-source-filesystem`)
 
 // Define the template for blog post
 const blogPost = path.resolve(`./src/templates/blog-post.js`)
+
+// Get environment variables
+const clientId = process.env.GATSBY_DEVIANTART_CLIENT_ID
+const clientSecret = process.env.GATSBY_DEVIANTART_CLIENT_SECRET
 
 /**
  * @type {import('gatsby').GatsbyNode['createPages']}
@@ -60,6 +66,36 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       })
     })
   }
+}
+
+exports.onCreateDevServer = ({ app }) => {
+  const express = require("express")
+  const serverApp = express()
+
+  serverApp.get("/api/login", async (req, res) => {
+    try {
+      console.log("Client ID:", process.env.GATSBY_DEVIANTART_CLIENT_ID)
+      console.log("Client Secret:", process.env.GATSBY_DEVIANTART_CLIENT_SECRET)
+
+      const login_response = await axios.post(
+        "https://www.deviantart.com/api/v1/oauth2/placebo",
+        null,
+        {
+          params: {
+            client_id: clientId,
+            client_secret: clientSecret,
+          },
+        }
+      )
+      token = login_response.data
+      console.log("Your DeviantArt Token: ", token)
+    } catch (error) {
+      console.error(error)
+      res.status(500).json({ error: "Failed to login to DeviantArt" })
+    }
+  })
+
+  app.use(serverApp)
 }
 
 /**

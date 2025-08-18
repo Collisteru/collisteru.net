@@ -1,9 +1,10 @@
+import fetchAllDeviations from "../api/deviations.js"
+import Layout from "../components/layout"
 import * as React from "react"
 import { graphql } from "gatsby"
 import Plot from "react-plotly.js"
-import Layout from "../components/layout"
-import Seo from "../components/seo"
-import { fetchAllDeviations } from "../apis/dacalls.ts"
+
+// import { fetchAllDeviations } from "../api/dacalls.js"
 
 export const query = graphql`
   query {
@@ -34,16 +35,17 @@ const DAWidget = () => {
 
   const layout = { width: 600, height: 400, title: "Sample Plot" }
 
-  const handleSearch = () => {
-    var deviations = 0
+  // Hit the server.js dacalls route
+  const handleSearch = async () => {
     console.log("Fetching data for:", username)
     try {
-      var deviations = fetchAllDeviations(username)
-    } catch {
-      console.log("Fetch failed")
+      const response = await fetch(`/api/login`)
+      if (!response.ok) throw new Error(`HTTP error ${response.status}`)
+      const data = await response.json()
+      console.log("Retrieved DeviantArt token:", data)
+    } catch (error) {
+      console.error("Fetch failed", error)
     }
-    console.log("Retrieved deviations: ", deviations)
-    // Later: connect to DeviantArt API here
   }
 
   return (
@@ -96,13 +98,7 @@ const DAWidget = () => {
 const DA = ({ data }) => {
   const html_to_render = get_content(data)
 
-  return (
-    <Layout>
-      <DAWidget />
-    </Layout>
-  )
+  return <Layout>{<DAWidget />}</Layout>
 }
-
-export const Head = () => <Seo title="DeviantArt User Stats" />
 
 export default DA

@@ -1,7 +1,6 @@
 // src/components/QuoteOfTheDay.js
 import React from "react"
 import { useChooseQuote } from "../utils/quotefuncs"
-import { Link } from "gatsby"
 
 const QuoteOfTheDay = () => {
   // TODO: Finish this
@@ -17,10 +16,12 @@ const QuoteOfTheDay = () => {
       <div className="quote-outer-div">
         <div id="dailyquote-container">
           <div className="side-decoration"></div>
-          <div id="dailyquote-and-author">
+          <label>
             <a className="invisible_link" href="/quotes">
               <span></span>
             </a>
+          </label>
+          <div id="dailyquote-and-author">
             <h3>Quote of The Day:</h3>
             <hr></hr>
             <blockquote id="dailyquote">{quote.quote} </blockquote>

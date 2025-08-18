@@ -3,6 +3,11 @@
  *
  * See: https://www.gatsbyjs.com/docs/reference/config-files/gatsby-config/
  */
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV || "development"}`,
+})
+
+console.log("Loaded env file for NODE_ENV:", process.env.NODE_ENV)
 
 /**
  * @type {import('gatsby').GatsbyConfig}

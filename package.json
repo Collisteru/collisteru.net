@@ -17,6 +17,8 @@
     "csvtojson": "^2.0.10",
     "date-fns": "^3.6.0",
     "deviantart": "^0.1.0",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
     "fs": "^0.0.1-security",
     "gatsby": "^5.13.1",
     "gatsby-plugin-feed": "^5.13.0",
@@ -41,6 +43,7 @@
     "nodeplotlib": "^1.1.2",
     "object.assign": "^4.1.7",
     "path": "^0.12.7",
+    "plotly": "^1.0.6",
     "plotly.js": "^3.0.3",
     "postcss": "^8.4.33",
     "prismjs": "^1.29.0",
@@ -56,6 +59,7 @@
     "url": "^0.11.4"
   },
   "devDependencies": {
+    "@netlify/plugin-gatsby": "^3.8.4",
     "prettier": "^2.8.8"
   },
   "homepage": "https://github.com/gatsbyjs/collisteru#readme",
