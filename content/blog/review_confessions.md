@@ -1,5 +1,5 @@
 ---
-title: "Book Review: The Convessions of St. Augustine"
+title: "Book Review: The Confessions of St. Augustine"
 description: "A relatable account of growing up by history’s greatest theologian"
 thumbnail: "../icons/confessions_review.png"
 date: "2025-09-03T00:00:00"
