@@ -1,8 +1,11 @@
 
 ### Now
 
-Finishing up the Fall 2024 semester and working on my senior thesis. See the proposal in the Writing section.
+I graduated!
 
+I am now in Berkeley CA doing [Inkhaven](https://www.inkhaven.blog/). I am publishing one blogpost a day on [my Substack blog.](https://collisteru.substack.com/).
+
+You should visit! If you do, ask for "Collisteru." 
 
 ## Interests:
 

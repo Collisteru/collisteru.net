@@ -18,7 +18,7 @@ My new year's resolution was to go analog.
 
 I resolved to live by the following rule:
 
-*"I will not use any technology with a display screen"*
+_"I will not use any technology with a display screen"_
 
 This rule is strict. It bans computers, including embedded computers, so no drivign. Cell phone use is out of the question. This all sounds nice and dandy as far as it goes, but as a CS student it's unclear how I would be able to work if I followed this rule. A total purge is impossible. Challenge failed, right? Not quite yet. I believe it's much better to walk a few strong steps along a good road than to never start because the end is far away. Just looking at the scenery along a noble path is noble. The rule became: "I will seek out and prefer screenless solutions wherever they improve my life."
 
@@ -34,9 +34,8 @@ While the rule is strict, it permits more technology than you might think at fir
 
 That being said, it's still a long departure from normal contemporary life. I needed to rethink almost everything I did in life. I had to make significant lifestyle changes.
 
-The most important single change was abandoning my phone. Keeping it in a little place in my home meant I barely used it at all anymore. I regained my ability to focus during lectures. My social urge became much stronger; since I couldn't stare at my phone while waiting for something, I usually struck up a conversation with nearby people. I felt the best advantage each time I sat down to rest after class. Usually before, my first instinct would be to pull out my phone and look at random stuff for about 30 minutes before I actually started to work. Now if I'm too tired to work immediately I just stare at a wall or walk around for a minute or two before looking at my list of tasks for the day. 
+The most important single change was abandoning my phone. Keeping it in a little place in my home meant I barely used it at all anymore. I regained my ability to focus during lectures. My social urge became much stronger; since I couldn't stare at my phone while waiting for something, I usually struck up a conversation with nearby people. I felt the best advantage each time I sat down to rest after class. Usually before, my first instinct would be to pull out my phone and look at random stuff for about 30 minutes before I actually started to work. Now if I'm too tired to work immediately I just stare at a wall or walk around for a minute or two before looking at my list of tasks for the day.
 
 It wouldn't be fair to not talk about the disadvantages. Phone-only activities and events grow like mushrooms nowadays, and these can be annoying. The societal expectation for us to have our phones on us at all times is surprisingly strong. However, since I still brought my laptop to school every day, I was able to avoid most significant problems.
 
 I don't think the analog life is superior in every way. It comes with its own advantages and disadvantages. The important point is that it's different, and despite what most people told me when I started it, it is possible in 2025. I want to make it clear that you have a choice. This is the story of what happens when you choose differently.
-
