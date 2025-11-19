@@ -35,7 +35,7 @@ This website is very much under construction, but will be added to over time as 
 
 ## The Site
 
-The domain is managed by Squarespace, the site itself is hosted by Netlify, it's built largely in Gatsby, and the content is written in Markdown. KaTeX provides LaTeX rendering, and PrismJS provides code highlighting.
+The domain is managed by ~~Squarespace~~ (Google Domains, eater of Squarespace), the site itself is hosted by Netlify, it's built largely in Gatsby, and the content is written in Markdown. KaTeX provides LaTeX rendering, and PrismJS provides code highlighting.
 
 The design is inspired in part by late 90s / early 2000s web design and in part by 19th century typesetting. 
 
@@ -47,7 +47,7 @@ You can access the code [here](https://github.com/Collisteru/collisteru.net).
 
 ### Social Media
 
-Keep in mind that none of these accounts are checked regularly. Listed in order of how often they are used.
+Keep in mind that none of these accounts are checked regularly. I list these in order of how often I use them.
 
 
 <div style="display: flex; justify-content: space-around;">
