@@ -4,8 +4,8 @@
 
 Welcome to Collisteru's little blog and portfolio site! Please enjoy your stay.
 
-- **I'm a computer programmer, writer, and general creator.**
-- Professionally, I'm a Computer Science + Applied Math undergraduate at the **University of Colorado.**  
+- **I'm a computer programmer, writer, and creator.**
+- Professionally, I'm a Computer Science + Applied Math graduate student at the **University of Colorado.**  
 - I work as an AI researcher in industry. **I think AI is the most important technology of the century** so far and am interested in making it safe and effective.
 
 Right now this website is mostly dedicated to hosting writing and projects. You can read in [Writing](/writing) and [Software](/software).
